@@ -48,8 +48,11 @@
     'application': False,
     'post_init_hook': 'post_init_hook',
     'assets': {
-        'web.assets_frontend': [
-            'test_themes/static/src/js/navbar.js',
+        'web.assets_backend': [
+            'test_themes/static/src/js/systray_items/website_switcher.js',
+        ],
+        'web.assets_qweb': [
+            'test_themes/static/src/js/systray_items/website_switcher.xml',
         ],
     },
     'license': 'LGPL-3',
