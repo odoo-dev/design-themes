@@ -13,6 +13,9 @@
 
     &:not(.o_animating):not(.o_animate_in_dropdown) {
         transform: none !important;
+        // Fix for "transform: none" not overridding keyframe transforms on
+        // iPhone 8 and lower.
+        animation: none;
     }
 }
 .o_animate_preview {
