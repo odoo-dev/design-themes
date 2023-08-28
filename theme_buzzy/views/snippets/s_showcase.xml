@@ -5,6 +5,12 @@
     <!-- Section -->
     <xpath expr="//section" position="attributes">
         <attribute name="class" add="o_cc o_cc5" separator=" "/>
+    </xpath>
+</template>
+
+<template id="configurator_s_showcase" inherit_id="website.configurator_s_showcase">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
         <attribute name="data-oe-shape-data">{"shape":"web_editor/Blocks/03","flip":[]}</attribute>
     </xpath>
     <!-- Shape -->

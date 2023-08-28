@@ -5,12 +5,10 @@
     <!-- Section -->
     <xpath expr="//section" position="attributes">
         <attribute name="class" add="o_cc o_cc3" remove="pt96 pb96" separator=" "/>
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/18","flip":["x"]}</attribute>
     </xpath>
 
     <xpath expr="//span[hasclass('s_parallax_bg')]" position="after">
         <div class="o_we_bg_filter bg-black-50"></div>
-        <div class="o_we_shape o_web_editor_Origins_18" style="background-image: url('/web_editor/shape/web_editor/Origins/18.svg?c1=o-color-2&amp;flip=x'); background-position: 50% 50%;"/>
     </xpath>
 
     <!-- Title -->
@@ -27,6 +25,17 @@
     <!-- Button -->
     <xpath expr="//t[@t-esc='cta_btn_text']" position="replace" mode="inner">
         See properties
+    </xpath>
+</template>
+
+<template id="configurator_s_banner" inherit_id="website.configurator_s_banner">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/18","flip":["x"]}</attribute>
+    </xpath>
+    <!-- Shape -->
+    <xpath expr="//span[hasclass('s_parallax_bg')]" position="after">
+        <div class="o_we_shape o_web_editor_Origins_18" style="background-image: url('/web_editor/shape/web_editor/Origins/18.svg?c1=o-color-2&amp;flip=x'); background-position: 50% 50%;"/>
     </xpath>
 </template>
 
