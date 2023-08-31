@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!-- Redefine landing 0 as ['s_text_block_title_landing', 's_table_of_content', 's_text_image', 's_text_block'] -->
+<template id="new_page_template_sections_landing_0" inherit_id="website.new_page_template_sections_landing_0">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <!-- Currently this template is not yet automatically generated from the manifest
+                It might be implemented later. In the meantime, you can patch the page template
+                and make sure you call the most specific snippet: here the ones for landing 0.
+
+                Note that this is only for the example - in practice, a new "s_text_block_title_landing"
+                should not exist - the goal is that its content should be inside
+                "website.new_page_template_landing_s_text_block".
+                It could be done if you require distinct ones though.
+                For use cases like this one "start from a text block to show a title", I'd say
+                you should create that very general concept as "website.s_text_block_title", which
+                just changes the layout in the way you want, and then you can update it for
+                templates (generic & specific) and in themes
+            -->
+            <t t-snippet-call="website.new_page_template_landing_0_s_text_block_title_landing"/>
+            <t t-snippet-call="website.new_page_template_landing_0_s_table_of_content"/>
+            <t t-snippet-call="website.new_page_template_landing_0_s_text_image"/>
+            <t t-snippet-call="website.new_page_template_landing_0_s_text_block"/>
+        </div>
+    </xpath>
+</template>
+
+<!-- General change for all pages -->
+<template id="new_page_template_s_text_block_title_landing" inherit_id="website.new_page_template_s_text_block_title_landing">
+    <xpath expr="//h2" position="replace" mode="inner">Beauty theme rules</xpath>
+</template>
+
+<!-- Change specific to landing pages (here you can target changes already done in general changes) -->
+<template id="new_page_template_landing_s_text_block_title_landing" inherit_id="website.new_page_template_landing_s_text_block_title_landing">
+    <xpath expr="//h2" position="after"><p>This is on all landing pages</p></xpath>
+</template>
+
+<!-- Change specific to landing 0 page (here you can target changes already done in landing pages) -->
+<template id="new_page_template_landing_0_s_text_block_title_landing" inherit_id="website.new_page_template_landing_0_s_text_block_title_landing">
+    <xpath expr="//p" position="before"><p>This is on landing page 0</p></xpath>
+</template>
+
+<!-- Here is an example of s_text_block modified in the same way as s_text_block_title_landing -->
+<!-- General change for all pages -->
+<template id="new_page_template_s_text_block" inherit_id="website.new_page_template_s_text_block">
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-snippet">s_text_block</attribute>
+        <attribute name="class" add="pb0 o_cc2" remove="pb40" separator=" "/>
+        <attribute name="style" remove="background-image: none;" separator=" "/>
+    </xpath>
+    <xpath expr="//div[hasclass('container')]" position="replace">
+        <div class="container s_allow_columns">
+            <h2 style="text-align: center;">Base block relooked as a title</h2>
+        </div>
+    </xpath>
+</template>
+
+<!-- Change specific to landing pages (here you can target changes already done in general changes) -->
+<template id="new_page_template_landing_s_text_block" inherit_id="website.new_page_template_landing_s_text_block">
+    <xpath expr="//h2" position="after"><p>This is the base block on all landing pages</p></xpath>
+</template>
+
+<!-- Change specific to landing 0 page (here you can target changes already done in landing pages) -->
+<template id="new_page_template_landing_0_s_text_block" inherit_id="website.new_page_template_landing_0_s_text_block">
+    <xpath expr="//p" position="before"><p>This is the base block on landing page 0</p></xpath>
+</template>
+
+</odoo>

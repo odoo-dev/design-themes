@@ -24,6 +24,7 @@
         'views/snippets/s_media_list.xml',
         'views/snippets/s_comparisons.xml',
         'views/snippets/s_product_catalog.xml',
+        'views/new_page_template.xml',
     ],
     'images': [
         'static/description/beauty_description.jpg',
@@ -41,6 +42,14 @@
     },
     'snippet_lists': {
         'homepage': ['s_cover', 's_text_image', 's_title', 's_product_list', 's_company_team', 's_call_to_action'],
+    },
+    'new_page_templates': {
+        'landing': {
+            # Blocks need to be listed for all intermediary templates to be generated
+            # E.g. s_text_block_title_landing is not referenced at all in website
+            #      s_image_text_about_0 is not referenced on the landing_0 page in website 
+            '0': ['s_text_block_title_landing', 's_table_of_content', 's_image_text_about_0', 's_text_image', 's_text_block'],
+        },
     },
     'license': 'LGPL-3',
     'live_test_url': 'https://theme-beauty.odoo.com',
