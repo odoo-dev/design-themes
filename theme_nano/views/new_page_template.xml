@@ -6,7 +6,7 @@
 <template id="new_page_template_sections_about_full" inherit_id="website.new_page_template_sections_about_full">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_about_full_s_text_block_title_about"/>
+            <t t-snippet-call="website.new_page_template_about_full_s_text_block_title"/>
             <t t-snippet-call="website.new_page_template_about_full_s_image_text_about_0"/>
             <t t-snippet-call="website.new_page_template_about_full_s_text_image_about_0"/>
             <t t-snippet-call="website.new_page_template_about_full_s_numbers_about_0"/>
@@ -20,7 +20,7 @@
 <template id="new_page_template_sections_about_full_1" inherit_id="website.new_page_template_sections_about_full_1">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_about_full_1_s_text_block_title"/>
+            <t t-snippet-call="website.new_page_template_about_full_1_s_text_block_title_about"/>
             <t t-snippet-call="website.new_page_template_about_full_1_s_three_columns_about"/>
             <t t-snippet-call="website.new_page_template_about_full_1_s_text_block_title_about_1"/>
             <t t-snippet-call="website.new_page_template_about_full_1_s_company_team_block_about"/>
@@ -52,7 +52,7 @@
             <t t-snippet-call="website.new_page_template_about_personal_s_text_block_title_about_personal"/>
             <t t-snippet-call="website.new_page_template_about_personal_s_numbers_about_personal"/>
             <t t-snippet-call="website.new_page_template_about_personal_s_features_about_personal"/>
-            <t t-snippet-call="website.new_page_template_about_personal_s_call_to_action_about"/>
+            <t t-snippet-call="website.new_page_template_about_personal_s_call_to_action"/>
         </div>
     </xpath>
 </template>
@@ -73,7 +73,7 @@
             <t t-snippet-call="website.new_page_template_landing_s_banner_landing"/>
             <t t-snippet-call="website.new_page_template_landing_s_features_landing"/>
             <t t-snippet-call="website.new_page_template_landing_s_masonry_block_landing"/>
-            <t t-snippet-call="website.new_page_template_landing_s_call_to_action_landing_2"/>
+            <t t-snippet-call="website.new_page_template_landing_s_call_to_action"/>
             <t t-snippet-call="website.new_page_template_landing_s_references_about_0"/>
             <t t-snippet-call="website.new_page_template_landing_s_quotes_carousel_about_0"/>
         </div>
@@ -87,7 +87,7 @@
             <t t-snippet-call="website.new_page_template_landing_s_text_image_landing"/>
             <t t-snippet-call="website.new_page_template_landing_s_text_block_title_landing_service"/>
             <t t-snippet-call="website.new_page_template_landing_s_three_columns_landing_1"/>
-            <t t-snippet-call="website.new_page_template_landing_s_call_to_action_landing"/>
+            <t t-snippet-call="website.new_page_template_landing_s_call_to_action"/>
         </div>
     </xpath>
 </template>
@@ -101,7 +101,7 @@
             <t t-snippet-call="website.new_page_template_landing_s_showcase_landing"/>
             <t t-snippet-call="website.new_page_template_landing_s_color_blocks_2_landing"/>
             <t t-snippet-call="website.new_page_template_landing_s_quotes_carousel_about_0"/>
-            <t t-snippet-call="website.new_page_template_landing_s_call_to_action_landing_1"/>
+            <t t-snippet-call="website.new_page_template_landing_s_call_to_action"/>
         </div>
     </xpath>
 </template>
@@ -161,7 +161,7 @@
             <t t-snippet-call="website.new_page_template_services_s_image_text_service"/>
             <t t-snippet-call="website.new_page_template_services_s_text_image_service"/>
             <t t-snippet-call="website.new_page_template_services_s_image_text_service_1"/>
-            <t t-snippet-call="website.new_page_template_services_s_call_to_action_landing_2"/>
+            <t t-snippet-call="website.new_page_template_services_s_call_to_action"/>
         </div>
     </xpath>
 </template>
@@ -208,7 +208,7 @@
 <template id="new_page_template_sections_team_0" inherit_id="website.new_page_template_sections_team_0">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_team_0_s_text_block_title_team"/>
+            <t t-snippet-call="website.new_page_template_team_0_s_text_block_title_team_no_padding"/>
             <t t-snippet-call="website.new_page_template_team_s_three_columns_team"/>
         </div>
     </xpath>
@@ -217,7 +217,7 @@
 <template id="new_page_template_sections_team_1" inherit_id="website.new_page_template_sections_team_1">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_team_1_s_text_block_title_team"/>
+            <t t-snippet-call="website.new_page_template_team_1_s_text_block_title_team_no_padding"/>
             <t t-snippet-call="website.new_page_template_team_s_image_text_team"/>
             <t t-snippet-call="website.new_page_template_team_s_text_image_team"/>
             <t t-snippet-call="website.new_page_template_team_s_image_text_team_1"/>
@@ -228,7 +228,7 @@
 <template id="new_page_template_sections_team_2" inherit_id="website.new_page_template_sections_team_2">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_team_s_text_block_title_team_no_padding"/>
+            <t t-snippet-call="website.new_page_template_team_s_text_block_title_team"/>
             <t t-snippet-call="website.new_page_template_team_s_company_team"/>
         </div>
     </xpath>
@@ -236,105 +236,152 @@
 
 <!-- Snippet customization About Pages -->
 
-<template id="new_page_template_s_cover_about_0" inherit_id="website.new_page_template_s_cover_about_0">
+<template id="new_page_template_s_text_block_title_about_3" inherit_id="website.new_page_template_s_text_block_title_about_3">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_half_screen_height" remove="o_full_screen_height" separator=" "/>
+        <attribute name="class" add="pb0" remove="pb96" separator=" "/>
+    </xpath>
+    <xpath expr="//*[hasclass('container')]" position="attributes">
+        <attribute name="class" add="o_container_small" remove="container" separator=" "/>
     </xpath>
 </template>
 
 <template id="new_page_template_s_text_block_title_about_1" inherit_id="website.new_page_template_s_text_block_title_about_1">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
+        <attribute name="class" add="pb40" remove="pb96" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_s_numbers_about_0" inherit_id="website.new_page_template_s_numbers_about_0">
+<template id="new_page_template_s_text_block_about_0" inherit_id="website.new_page_template_s_text_block_about_0">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" remove="o_cc3" separator=" "/>
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/10","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_10"/>
+        <attribute name="class" remove="pt96" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_s_call_to_action" inherit_id="website.new_page_template_s_call_to_action">
+<template id="new_page_template_s_text_block_title_about" inherit_id="website.new_page_template_s_text_block_title_about">
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <attribute name="class" add="o_cc5" remove="pb96" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_s_call_to_action_about" inherit_id="website.new_page_template_s_call_to_action_about">
+<template id="new_page_template_s_text_block_title_about_personal" inherit_id="website.new_page_template_s_text_block_title_about_personal">
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="class" add="o_cc2 pb40 pt40" remove="o_cc3 pb96 pt96" separator=" "/>
     </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+</template>
+
+<template id="new_page_template_s_text_block_title" inherit_id="website.new_page_template_s_text_block_title">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc5" remove="pb96 pb40" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_cover_about_personal" inherit_id="website.new_page_template_s_text_cover_about_personal">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc5" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_numbers_about_personal" inherit_id="website.new_page_template_s_numbers_about_personal">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc2" remove="o_cc3" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_cover_about_0" inherit_id="website.new_page_template_s_cover_about_0">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_half_screen_height" remove="o_full_screen_height" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Bold/12_001","flip":["x"]}</attribute>
+    </xpath>
+    <xpath expr="//*[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Bold_12_001" style="background-image: url('/web_editor/shape/web_editor/Bold/12_001.svg?c1=rgba%280%2C%200%2C%200%2C%200.5%29&amp;c2=rgba%280%2C%200%2C%200%2C%200.25%29&amp;c5=o-color-5&amp;flip=x'); background-position: 50% 50%;"/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_features_about_personal" inherit_id="website.new_page_template_s_features_about_personal">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Floats/12"}</attribute>
+    </xpath>
+    <xpath expr="//*[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Floats_12"/>
     </xpath>
 </template>
 
 <!-- Snippet customization Landing Pages -->
 
+<template id="new_page_template_s_text_block_title_landing_service" inherit_id="website.new_page_template_s_text_block_title_landing_service">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc5" remove="pb96 o_cc2" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_block_title_landing" inherit_id="website.new_page_template_s_text_block_title_landing">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc5" remove="pb96 o_cc2" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_cover_soon_0" inherit_id="website.new_page_template_s_cover_soon_0">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Bold/12_001","flip":["x"]}</attribute>
+    </xpath>
+    <xpath expr="//*[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Bold_12_001" style="background-image: url('/web_editor/shape/web_editor/Bold/12_001.svg?c1=rgba%280%2C%200%2C%200%2C%200.5%29&amp;c2=rgba%280%2C%200%2C%200%2C%200.25%29&amp;c5=o-color-5&amp;flip=x'); background-position: 50% 50%;"/>
+    </xpath>
+</template>
+
 <template id="new_page_template_s_cover_landing" inherit_id="website.new_page_template_s_cover_landing">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
         <attribute name="class" add="o_half_screen_height" remove="o_full_screen_height" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Bold/12_001","flip":["x"]}</attribute>
     </xpath>
-</template>
-
-<template id="new_page_template_s_text_block_title_about_1" inherit_id="website.new_page_template_s_text_block_title_about_1">
-    <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
-    </xpath>
-</template>
-
-<template id="new_page_template_s_call_to_action_landing" inherit_id="website.new_page_template_s_call_to_action_landing">
-    <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
-    </xpath>
-</template>
-
-<template id="new_page_template_s_call_to_action_landing_1" inherit_id="website.new_page_template_s_call_to_action_landing_1">
-    <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
-    </xpath>
-</template>
-
-<template id="new_page_template_s_call_to_action_landing_2" inherit_id="website.new_page_template_s_call_to_action_landing_2">
-    <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+    <xpath expr="//*[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Bold_12_001" style="background-image: url('/web_editor/shape/web_editor/Bold/12_001.svg?c1=rgba%280%2C%200%2C%200%2C%200.5%29&amp;c2=rgba%280%2C%200%2C%200%2C%200.25%29&amp;c5=o-color-5&amp;flip=x'); background-position: 50% 50%;"/>
     </xpath>
 </template>
 
 <!-- Snippet customization Gallery Pages -->
 
-<template id="new_page_template_s_picture_about_0" inherit_id="website.new_page_template_s_picture_about_0" primary="True">
+<template id="new_page_template_s_text_block_title_gallery" inherit_id="website.new_page_template_s_text_block_title_gallery">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc3" remove="o_cc1" separator=" "/>
+        <attribute name="class" add="o_cc5" remove="pb96" separator=" "/>
     </xpath>
 </template>
 
 <!-- Snippet customization Services Pages -->
 
+<template id="new_page_template_s_text_block_title_services_no_padding" inherit_id="website.new_page_template_s_text_block_title_services_no_padding">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" remove="pb96" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_block_title_faq" inherit_id="website.new_page_template_s_text_block_title_faq">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" remove="pb96" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_block_title_contact" inherit_id="website.new_page_template_s_text_block_title_contact">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" remove="pb96" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_cover_service" inherit_id="website.new_page_template_s_text_cover_service">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc5" separator=" "/>
+    </xpath>
+</template>
+
 <!-- Snippet customization Pricing Pages -->
 
-<template id="new_page_template_s_call_to_action_menu" inherit_id="website.new_page_template_s_call_to_action_menu">
+<template id="new_page_template_s_text_block_title_pricing" inherit_id="website.new_page_template_s_text_block_title_pricing">
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <attribute name="class" remove="pb96" separator=" "/>
     </xpath>
 </template>
 
@@ -342,19 +389,13 @@
 
 <template id="new_page_template_s_text_block_title_team_no_padding" inherit_id="website.new_page_template_s_text_block_title_team_no_padding">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
+        <attribute name="class" add="o_cc5" remove="pb96" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_team_0_s_text_block_title_team" inherit_id="website.new_page_template_team_0_s_text_block_title_team">
+<template id="new_page_template_s_text_block_title_team" inherit_id="website.new_page_template_s_text_block_title_team">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc2" separator=" "/>
-    </xpath>
-</template>
-
-<template id="new_page_template_team_1_s_text_block_title_team" inherit_id="website.new_page_template_team_1_s_text_block_title_team">
-    <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc3" separator=" "/>
+        <attribute name="class" remove="pb96 o_cc5" separator=" "/>
     </xpath>
 </template>
 

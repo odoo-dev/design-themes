@@ -236,126 +236,222 @@
 
 <!-- Snippet customization About Pages -->
 
-<template id="new_page_template_s_cover_about_0" inherit_id="website.new_page_template_s_cover_about_0">
+<template id="new_page_template_s_text_block_title" inherit_id="website.new_page_template_s_text_block_title_about">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_half_screen_height" remove="o_full_screen_height" separator=" "/>
+        <attribute name="class" add="o_cc3" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_s_text_block_title_about_1" inherit_id="website.new_page_template_s_text_block_title_about_1">
+<template id="new_page_template_s_image_text_about_0" inherit_id="website.new_page_template_s_image_text_about_0">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":["y"]}</attribute>
     </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001" style="background-image: url('/web_editor/shape/web_editor/Origins/02_001.svg?c4=o-color-4&amp;c5=o-color-2&amp;flip=y'); background-position: 50% 0%;"></div>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_cover_about_0" inherit_id="website.new_page_template_s_cover_about_0">
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Blocks/04","flip":["x"]}</attribute>
+    </xpath>
+
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Blocks_04" style="background-image: url('/web_editor/shape/web_editor/Blocks/04.svg?c1=o-color-1&amp;c2=o-color-2&amp;c3=o-color-4&amp;c5=o-color-5&amp;flip=x'); background-position: 50% 100%;"/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_three_columns_about" inherit_id="website.new_page_template_s_three_columns_about">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt0 pb0" remove="pb120 pt120" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":[]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001"></div>
+    </xpath>
+    <xpath expr="//h3" position="replace"/>
 </template>
 
 <template id="new_page_template_s_numbers_about_0" inherit_id="website.new_page_template_s_numbers_about_0">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" remove="o_cc3" separator=" "/>
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/10","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Blocks/01_001","flip":[]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_10"/>
+        <div class="o_we_shape o_web_editor_Blocks_01_001"/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_numbers_about_personal" inherit_id="website.new_page_template_s_numbers_about_personal">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Blocks/01_001","flip":[]}</attribute>
+    </xpath>
+    <!-- Shape -->
+    <xpath expr="//div[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Blocks_01_001"/>
     </xpath>
 </template>
 
 <template id="new_page_template_s_call_to_action" inherit_id="website.new_page_template_s_call_to_action">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
     </xpath>
 </template>
 
 <template id="new_page_template_s_call_to_action_about" inherit_id="website.new_page_template_s_call_to_action_about">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
     </xpath>
+</template>
+
+<template id="new_page_template_s_features_about_personal" inherit_id="website.new_page_template_s_features_about_personal">
+    <xpath expr="//h2" position="replace"/>
 </template>
 
 <!-- Snippet customization Landing Pages -->
 
-<template id="new_page_template_s_cover_landing" inherit_id="website.new_page_template_s_cover_landing">
+<template id="new_page_template_s_text_block_title_landing_service" inherit_id="website.new_page_template_s_text_block_title_landing_service">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_half_screen_height" remove="o_full_screen_height" separator=" "/>
+        <attribute name="class" add="o_cc3" remove="o_cc2" separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_s_text_block_title_about_1" inherit_id="website.new_page_template_s_text_block_title_about_1">
+<template id="new_page_template_s_text_block_title_landing" inherit_id="website.new_page_template_s_text_block_title_landing">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
+        <attribute name="class" add="o_cc3" remove="o_cc2" separator=" "/>
     </xpath>
+</template>
+
+<template id="new_page_template_s_cover_landing" inherit_id="website.new_page_template_s_cover_landing">
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Blocks/04","flip":["x"]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Blocks_04" style="background-image: url('/web_editor/shape/web_editor/Blocks/04.svg?c1=o-color-1&amp;c2=o-color-2&amp;c3=o-color-4&amp;c5=o-color-5&amp;flip=x'); background-position: 50% 100%;"/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_three_columns_landing" inherit_id="website.new_page_template_s_three_columns_landing">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt0 pb0" remove="pb120 pt120" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":[]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001"></div>
+    </xpath>
+    <xpath expr="//h3" position="replace"/>
+</template>
+
+<template id="new_page_template_s_three_columns_landing_1" inherit_id="website.new_page_template_s_three_columns_landing_1">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt0 pb0" remove="pb120 pt120" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":[]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001"></div>
+    </xpath>
+    <xpath expr="//h3" position="replace"/>
 </template>
 
 <template id="new_page_template_s_call_to_action_landing" inherit_id="website.new_page_template_s_call_to_action_landing">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
     </xpath>
 </template>
 
 <template id="new_page_template_s_call_to_action_landing_1" inherit_id="website.new_page_template_s_call_to_action_landing_1">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
-    </xpath>
-</template>
-
-<template id="new_page_template_s_call_to_action_landing_2" inherit_id="website.new_page_template_s_call_to_action_landing_2">
-    <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
-    </xpath>
-    <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
     </xpath>
 </template>
 
 <!-- Snippet customization Gallery Pages -->
 
-<template id="new_page_template_s_picture_about_0" inherit_id="website.new_page_template_s_picture_about_0" primary="True">
+<!-- Snippet customization Services Pages -->
+
+<template id="new_page_template_s_image_text_service" inherit_id="website.new_page_template_s_image_text_service">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc3" remove="o_cc1" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":["y"]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001" style="background-image: url('/web_editor/shape/web_editor/Origins/02_001.svg?c4=o-color-4&amp;c5=o-color-2&amp;flip=y'); background-position: 50% 0%;"></div>
     </xpath>
 </template>
 
-<!-- Snippet customization Services Pages -->
+<template id="new_page_template_s_three_columns_service" inherit_id="website.new_page_template_s_three_columns_service">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt0 pb0" remove="pb120 pt120" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":[]}</attribute>
+    </xpath>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001"></div>
+    </xpath>
+    <xpath expr="//h3" position="replace"/>
+</template>
+
+<template id="new_page_template_s_call_to_action_landing_2" inherit_id="website.new_page_template_s_call_to_action_landing_2">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
+    </xpath>
+    <!-- Shape -->
+    <xpath expr="//div[hasclass('container')]" position="before">
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
+    </xpath>
+</template>
 
 <!-- Snippet customization Pricing Pages -->
 
 <template id="new_page_template_s_call_to_action_menu" inherit_id="website.new_page_template_s_call_to_action_menu">
+    <!-- Shape option -->
     <xpath expr="//section" position="attributes">
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Rainy/05_001","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/12_001","flip":["y"]}</attribute>
     </xpath>
+    <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Rainy_05_001"/>
+        <div class="o_we_shape o_web_editor_Airy_12_001" style="background-image: url('/web_editor/shape/web_editor/Airy/12_001.svg?c1=o-color-5&amp;c3=o-color-4&amp;flip=y'); background-position: 50% 100%;"/>
     </xpath>
 </template>
 
 <!-- Snippet customization Team Pages -->
 
-<template id="new_page_template_s_text_block_title_team_no_padding" inherit_id="website.new_page_template_s_text_block_title_team_no_padding">
+<template id="new_page_template_s_text_block_title_team" inherit_id="website.new_page_template_s_text_block_title_team">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc4" separator=" "/>
+        <attribute name="class" add="o_cc3"  separator=" "/>
     </xpath>
 </template>
 
-<template id="new_page_template_team_0_s_text_block_title_team" inherit_id="website.new_page_template_team_0_s_text_block_title_team">
+<template id="new_page_template_s_three_columns_team" inherit_id="website.new_page_template_s_three_columns_team">
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc2" separator=" "/>
+        <attribute name="class" add="pt0 pb0" remove="pb120 pt120" separator=" "/>
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/02_001","flip":[]}</attribute>
     </xpath>
-</template>
-
-<template id="new_page_template_team_1_s_text_block_title_team" inherit_id="website.new_page_template_team_1_s_text_block_title_team">
-    <xpath expr="//section" position="attributes">
-        <attribute name="class" add="o_cc3" separator=" "/>
+    <xpath expr="//section/div" position="before">
+        <div class="o_we_shape o_web_editor_Origins_02_001"></div>
     </xpath>
+    <xpath expr="//h3" position="replace"/>
 </template>
 
 <!-- General change for all pages -->
