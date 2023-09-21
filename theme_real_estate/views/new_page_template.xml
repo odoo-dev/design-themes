@@ -1,6 +1,76 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
 
+<!-- Basic -->
+
+<template id="new_page_template_sections_basic_0" inherit_id="website.new_page_template_sections_basic_0">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_0_s_text_block_title_blank"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_1" inherit_id="website.new_page_template_sections_basic_1">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_1_s_text_block_title_basic"/>
+            <t t-snippet-call="website.new_page_template_basic_1_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_basic_1_s_image_text"/>
+            <t t-snippet-call="website.new_page_template_basic_1_s_text_image"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_2" inherit_id="website.new_page_template_sections_basic_2">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_2_s_text_block_title_picture"/>
+            <t t-snippet-call="website.new_page_template_basic_2_s_picture_basic"/>
+            <t t-snippet-call="website.new_page_template_basic_2_s_text_block"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_3" inherit_id="website.new_page_template_sections_basic_3">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_3_s_parallax"/>
+            <t t-snippet-call="website.new_page_template_basic_3_s_text_block_title_basic"/>
+            <t t-snippet-call="website.new_page_template_basic_3_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_basic_3_s_three_columns"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_4" inherit_id="website.new_page_template_sections_basic_4">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_4_s_text_cover_basic"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_5" inherit_id="website.new_page_template_sections_basic_5">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_5_s_text_block_title_basic"/>
+            <t t-snippet-call="website.new_page_template_basic_5_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_basic_5_s_features"/>
+            <t t-snippet-call="website.new_page_template_basic_5_s_quotes_carousel"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_basic_6" inherit_id="website.new_page_template_sections_basic_6">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_basic_6_s_text_block_title_basic"/>
+            <t t-snippet-call="website.new_page_template_basic_6_s_table_of_content"/>
+        </div>
+    </xpath>
+</template>
+
 <!-- About -->
 
 <template id="new_page_template_sections_about_full" inherit_id="website.new_page_template_sections_about_full">
@@ -52,7 +122,34 @@
             <t t-snippet-call="website.new_page_template_about_personal_s_text_block_title_about_personal"/>
             <t t-snippet-call="website.new_page_template_about_personal_s_numbers_about_personal"/>
             <t t-snippet-call="website.new_page_template_about_personal_s_features_about_personal"/>
-            <t t-snippet-call="website.new_page_template_about_personal_s_call_to_action_about"/>
+            <t t-snippet-call="website.new_page_template_about_personal_s_call_to_action"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_about_map" inherit_id="website.new_page_template_sections_about_map">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_about_map_s_text_block_title_basic"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_numbers"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_text_image"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_text_block_title_map"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_text_block_0"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_parallax"/>
+            <t t-snippet-call="website.new_page_template_about_map_s_images_wall"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_about_timeline" inherit_id="website.new_page_template_sections_about_timeline">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_about_timeline_s_banner_about"/>
+            <t t-snippet-call="website.new_page_template_about_timeline_s_text_block_title_about_cv"/>
+            <t t-snippet-call="website.new_page_template_about_timeline_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_about_timeline_s_timeline"/>
+            <t t-snippet-call="website.new_page_template_about_timeline_s_call_to_action_about"/>
         </div>
     </xpath>
 </template>
@@ -106,6 +203,26 @@
     </xpath>
 </template>
 
+<template id="new_page_template_sections_landing_4" inherit_id="website.new_page_template_sections_landing_4">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_landing_s_cover_soon_1"/>
+            <t t-snippet-call="website.new_page_template_landing_s_text_block_title_soon"/>
+            <t t-snippet-call="website.new_page_template_landing_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_landing_s_text_block_title_contact"/>
+            <t t-snippet-call="website.new_page_template_landing_s_website_form_about_0"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_landing_5" inherit_id="website.new_page_template_sections_landing_5">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_landing_s_banner_down"/>
+        </div>
+    </xpath>
+</template>
+
 <!-- Gallery -->
 
 <template id="new_page_template_sections_gallery_0" inherit_id="website.new_page_template_sections_gallery_0">
@@ -120,10 +237,41 @@
 <template id="new_page_template_sections_gallery_1" inherit_id="website.new_page_template_sections_gallery_1">
     <xpath expr="//div" position="replace">
         <div id="wrap">
+            <t t-snippet-call="website.new_page_template_gallery_s_text_block_title_gallery"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_image_text"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_text_image"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_image_text_0"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_gallery_2" inherit_id="website.new_page_template_sections_gallery_2">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
             <t t-snippet-call="website.new_page_template_gallery_s_banner_gallery"/>
             <t t-snippet-call="website.new_page_template_gallery_s_text_block_gallery"/>
             <t t-snippet-call="website.new_page_template_gallery_s_image_gallery"/>
             <t t-snippet-call="website.new_page_template_gallery_s_picture_about_0"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_gallery_3" inherit_id="website.new_page_template_sections_gallery_3">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_gallery_s_text_block_title_gallery"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_three_columns"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_three_columns_0"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_gallery_4" inherit_id="website.new_page_template_sections_gallery_4">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_gallery_s_cover"/>
+            <t t-snippet-call="website.new_page_template_gallery_s_media_list"/>
         </div>
     </xpath>
 </template>
@@ -196,9 +344,55 @@
 <template id="new_page_template_sections_pricing_1" inherit_id="website.new_page_template_sections_pricing_1">
     <xpath expr="//div" position="replace">
         <div id="wrap">
+            <t t-snippet-call="website.new_page_template_pricing_s_text_block_title_pricing"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_comparisons"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_pricing_2" inherit_id="website.new_page_template_sections_pricing_2">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_pricing_s_cover"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_comparisons"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_features_grid"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_color_blocks_2"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_pricing_3" inherit_id="website.new_page_template_sections_pricing_3">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
             <t t-snippet-call="website.new_page_template_pricing_s_carousel_menu"/>
             <t t-snippet-call="website.new_page_template_pricing_s_product_catalog"/>
-            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action_menu"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_pricing_4" inherit_id="website.new_page_template_sections_pricing_4">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_pricing_s_text_block_title_pricing"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_image_text"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_text_image"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_image_text_0"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_pricing_5" inherit_id="website.new_page_template_sections_pricing_5">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_pricing_s_text_block_title_menu"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_product_catalog"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_three_columns_menu"/>
+            <t t-snippet-call="website.new_page_template_pricing_s_call_to_action"/>
         </div>
     </xpath>
 </template>
@@ -208,7 +402,7 @@
 <template id="new_page_template_sections_team_0" inherit_id="website.new_page_template_sections_team_0">
     <xpath expr="//div" position="replace">
         <div id="wrap">
-            <t t-snippet-call="website.new_page_template_team_0_s_text_block_title_team_no_padding"/>
+            <t t-snippet-call="website.new_page_template_team_s_text_block_title_team_no_padding"/>
             <t t-snippet-call="website.new_page_template_team_s_three_columns_team"/>
         </div>
     </xpath>
@@ -231,6 +425,56 @@
             <t t-snippet-call="website.new_page_template_team_s_text_block_title_team"/>
             <t t-snippet-call="website.new_page_template_team_s_company_team"/>
         </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_team_3" inherit_id="website.new_page_template_sections_team_3">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_team_s_text_block_title_team"/>
+            <t t-snippet-call="website.new_page_template_team_s_media_list_team"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_team_4" inherit_id="website.new_page_template_sections_team_4">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_s_text_block_title_team"/>
+            <t t-snippet-call="website.new_page_template_team_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_team_s_images_wall_team"/>
+        </div>
+    </xpath>
+</template>
+
+<template id="new_page_template_sections_team_5" inherit_id="website.new_page_template_sections_team_5">
+    <xpath expr="//div" position="replace">
+        <div id="wrap">
+            <t t-snippet-call="website.new_page_template_team_s_text_block_title_team"/>
+            <t t-snippet-call="website.new_page_template_team_s_text_block"/>
+            <t t-snippet-call="website.new_page_template_team_s_image_gallery_team"/>
+            <t t-snippet-call="website.new_page_template_team_s_picture_team"/>
+        </div>
+    </xpath>
+</template>
+
+<!-- Snippet customization Basic Pages -->
+
+<template id="new_page_template_s_text_block_title_picture" inherit_id="website.new_page_template_s_text_block_title_picture">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc4" remove="o_cc2" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_block_title_basic" inherit_id="website.new_page_template_s_text_block_title_basic">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" remove="o_cc4" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_text_block_title_blank" inherit_id="website.new_page_template_s_text_block_title_blank">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" remove="o_cc4" separator=" "/>
     </xpath>
 </template>
 
@@ -269,6 +513,17 @@
 <template id="new_page_template_s_numbers_about_personal" inherit_id="website.new_page_template_s_numbers_about_personal">
     <xpath expr="//section" position="attributes">
         <attribute name="class" add="o_cc4" remove="o_cc3" separator=" "/>
+    </xpath>
+</template>
+
+<template id="new_page_template_s_banner_about" inherit_id="website.new_page_template_s_banner_about">
+    <!-- Shape option -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-oe-shape-data">{"shape":"web_editor/Origins/18","flip":["x"]}</attribute>
+    </xpath>
+    <!-- Shape -->
+    <xpath expr="//span[hasclass('s_parallax_bg')]" position="after">
+        <div class="o_we_shape o_web_editor_Origins_18" style="background-image: url('/web_editor/shape/web_editor/Origins/18.svg?c1=o-color-2&amp;flip=x'); background-position: 50% 50%;"/>
     </xpath>
 </template>
 
