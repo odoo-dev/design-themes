@@ -50,5 +50,5 @@ class Crawler(HttpCase):
         # when designing a theme at the moment.
         Website = self.env['website']
         websites_themes = Website.get_test_themes_websites()
-        for website in websites_themes:
-            self.start_tour(f"/web?fw={website.id}", 'homepage', login='admin')
+        for website in websites_themes.filtered(lambda w: w.theme_id.name != 'theme_default'):
+            self.start_tour(f"/web?fw={website.id}", 'homepage_design_themes', login='admin')
