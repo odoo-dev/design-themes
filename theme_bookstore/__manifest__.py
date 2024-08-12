@@ -20,6 +20,7 @@
         'views/snippets/s_cover.xml',
         'views/snippets/s_process_steps.xml',
         'views/snippets/s_image_text.xml',
+        'views/snippets/s_cta_box.xml',
         'views/snippets/s_showcase.xml',
         'views/snippets/s_masonry_block.xml',
         'views/snippets/s_banner.xml',

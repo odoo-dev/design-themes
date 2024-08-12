@@ -28,6 +28,7 @@
         'views/snippets/s_three_columns.xml',
         'views/snippets/s_title.xml',
         'views/snippets/s_unveil.xml',
+        'views/snippets/s_cta_box.xml',
         'views/new_page_template.xml',
     ],
     'images': [

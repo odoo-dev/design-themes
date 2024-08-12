@@ -31,6 +31,7 @@
         'views/snippets/s_picture.xml',
         'views/snippets/s_title.xml',
         'views/snippets/s_unveil.xml',
+        'views/snippets/s_cta_box.xml',
         'views/new_page_template.xml',
     ],
     'images': [

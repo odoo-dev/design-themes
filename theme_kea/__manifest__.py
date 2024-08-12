@@ -24,6 +24,7 @@
         'views/snippets/s_features.xml',
         'views/snippets/s_image_gallery.xml',
         'views/snippets/s_unveil.xml',
+        'views/snippets/s_cta_box.xml',
         'views/new_page_template.xml',
     ],
     'images': [
