@@ -4,9 +4,9 @@
 <template id="s_cover" inherit_id="website.s_cover">
     <!-- Section -->
     <xpath expr="//section" position="attributes">
-        <attribute name="class" add="oe_img_bg o_full_screen_height" remove="parallax s_parallax_is_fixed bg-black-50" separator=" "/>
+        <attribute name="class" add="oe_img_bg o_cc1 pt160 pb160" remove="parallax s_parallax_is_fixed bg-black-50 o_cc4 pt256 pb256" separator=" "/>
         <attribute name="data-scroll-background-ratio">0</attribute>
-        <attribute name="data-oe-shape-data">{"shape":"web_editor/Floats/03","flip":[]}</attribute>
+        <attribute name="data-oe-shape-data">{&quot;shape&quot;:&quot;web_editor/Floats/03&quot;,&quot;colors&quot;:{&quot;c1&quot;:&quot;#42D29B&quot;,&quot;c2&quot;:&quot;#41BFF7&quot;,&quot;c4&quot;:&quot;#42D29B&quot;,&quot;c5&quot;:&quot;#F84F51&quot;,&quot;c3&quot;:&quot;#F9BE24&quot;},&quot;flip&quot;:[],&quot;showOnMobile&quot;:false,&quot;shapeAnimationSpeed&quot;:&quot;0&quot;}</attribute>
         <attribute name="style">background-image: url('/web/image/website.s_cover_default_image'); background-position: 50% 55%;</attribute>
     </xpath>
     <!-- Filter -->
@@ -15,7 +15,7 @@
     </xpath>
     <!-- Shape -->
     <xpath expr="//div[hasclass('container')]" position="before">
-        <div class="o_we_shape o_web_editor_Floats_03"/>
+        <div class="o_we_shape o_web_editor_Floats_03" style="background-image: url('/web_editor/shape/web_editor%2FFloats%2F03.svg?c1=%2342D29B&amp;c2=%2341BFF7&amp;c4=%2342D29B&amp;c5=%23F84F51&amp;c3=%23F9BE24');"/>
     </xpath>
     <!-- Disable Parallax -->
     <xpath expr="//span[hasclass('s_parallax_bg')]" position="replace"/>
@@ -29,7 +29,13 @@
     </xpath>
     <!-- Button -->
     <xpath expr="//a[hasclass('btn')]/t" position="replace" mode="inner">
-        Discover more
+        Shop Now
+    </xpath>
+    <xpath expr="//a[hasclass('btn')]" position="attributes">
+        <attribute name="class" remove="btn-secondary" add="btn-primary btn-lg" separator=" "></attribute>
+    </xpath>
+    <xpath expr="//a[hasclass('btn')][2]" position="attributes">
+        <attribute name="class" remove="btn-outline-secondary" add="btn-secondary btn-lg" separator=" "></attribute>
     </xpath>
 </template>
 

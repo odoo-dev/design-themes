@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_showcase" inherit_id="website.s_showcase">
+    <!-- Section -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt80 pb80" remove="pt48 pb48"/>
+    </xpath>
+    <!-- Title -->
+    <xpath expr="//h3" position="replace" mode="inner">
+        We also sell prime quality second hand books
+    </xpath>
+    <!-- Features -->
+    <xpath expr="//i" position="attributes">
+        <attribute name="class" remove="bg-o-color-3" add="bg-o-color-1" separator=" "/>
+    </xpath>
+    <xpath expr="//h5" position="replace" mode="inner">
+        Timeless Reads
+    </xpath>
+    <xpath expr="//div[hasclass('col-12')]//p" position="replace" mode="inner">
+        Explore beloved stories from every era. Find cherished classics to enjoy again and again.
+    </xpath>
+    <xpath expr="(//i)[2]" position="attributes">
+        <attribute name="class" remove="bg-o-color-3" add="text-o-color-4" separator=" "/>
+        <attribute name="style">background-color: rgb(66, 210, 155);</attribute>
+    </xpath>
+    <xpath expr="(//h5)[2]" position="replace" mode="inner">
+        Affordable Classics
+    </xpath>
+    <xpath expr="//div[hasclass('col-12')][3]//p" position="replace" mode="inner">
+        Own literary masterpieces without breaking the bank. Your favorite classic books at budget-friendly prices.
+    </xpath>
+    <xpath expr="(//i)[3]" position="attributes">
+        <attribute name="class" remove="bg-o-color-3" add="text-o-color-4" separator=" "/>
+        <attribute name="style">background-color: rgb(61, 191, 247);</attribute>
+    </xpath>
+    <xpath expr="(//h5)[3]" position="replace" mode="inner">
+        Hidden Treasures
+    </xpath>
+    <xpath expr="//div[hasclass('col-12')][4]//p" position="replace" mode="inner">
+        Discover rare and unique books waiting to be found. Unearth hidden gems in our collection.
+    </xpath>
+    <xpath expr="//div[hasclass('col-12')][4]" position="after">
+        <div class="col-12 pt8 pb8" data-name="Feature">
+            <i class="s_showcase_icon fa fa-comment-o me-auto rounded float-start text-o-color-4" role="img" style="background-color: rgb(249, 189, 37);"/>
+            <div class="d-flex flex-column">
+                <h5 class="s_showcase_title">Classic Discoveries</h5>
+                <p>Uncover literary classics at unbeatable prices. Give timeless stories a new home on your shelf.</p>
+            </div>
+        </div>
+    </xpath>
+    <!-- Link -->
+    <xpath expr="//div[hasclass('col-12')][6]" position="replace"/>
+    <!-- Image -->
+    <xpath expr="//img" position="attributes">
+        <attribute name="src">/web/image/website.s_three_columns_default_image_1</attribute>
+    </xpath>
+</template>
+
+</odoo>

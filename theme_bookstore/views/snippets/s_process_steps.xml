@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<template id="s_process_steps" inherit_id="website.s_process_steps">
+    <!-- Section -->
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_cc o_cc3" separator=" "/>
+    </xpath>
+    <!-- Steps -->
+    <xpath expr="//div[hasclass('s_process_step_number')]" position="attributes">
+        <attribute name="class" remove="bg-primary-light" separator=" "/>
+        <attribute name="style">background-color: rgb(61, 191, 247);</attribute>
+    </xpath>
+    <xpath expr="//div[hasclass('s_process_step_number')]//h3" position="replace" mode="inner">
+        <font class="text-white">1</font>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][2]//div[hasclass('s_process_step_number')]" position="attributes">
+        <attribute name="class" remove="bg-primary-light" separator=" "/>
+        <attribute name="style">background-color: rgb(249, 190, 36);</attribute>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][2]//div[hasclass('s_process_step_number')]//h3" position="replace" mode="inner">
+        <font class="text-white">2</font>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][3]//div[hasclass('s_process_step_number')]" position="attributes">
+        <attribute name="class" remove="bg-primary-light" add="bg-primary" separator=" "/>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][3]//div[hasclass('s_process_step_number')]//h3" position="replace" mode="inner">
+        <font class="text-white">3</font>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][4]//div[hasclass('s_process_step_number')]" position="attributes">
+        <attribute name="class" remove="bg-primary-light" separator=" "/>
+        <attribute name="style">background-color: rgb(66, 210, 155);</attribute>
+    </xpath>
+    <xpath expr="//div[hasclass('col-lg-3')][4]//div[hasclass('s_process_step_number')]//h3" position="replace" mode="inner">
+        <font class="text-white">4</font>
+    </xpath>
+</template>
+
+</odoo>
