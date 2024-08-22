@@ -22,6 +22,8 @@
         'views/snippets/s_parallax.xml',
         'views/snippets/s_image_gallery.xml',
         'views/snippets/s_unveil.xml',
+        # Add the file in alphabetic order
+        # 'views/snippets/s_placeholder.xml',
         'views/new_page_template.xml',
     ],
     'images': [

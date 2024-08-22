@@ -275,4 +275,87 @@
     </xpath>
 </template>
 
+
+
+
+<!-- ===== BASE TEMPLATE ======== -->
+<!--
+<template id="[placeholder]" inherit_id="website.[placeholder]">
+
+
+
+
+</template>
+-->
+
+<!-- ===== MAIN XPATHs ==========-->
+<!-- Replace main colors
+<xpath expr="//section" position="attributes">
+    <attribute name="class" add="o_cc4" remove="o_cc1" separator=" "/>
+</xpath>
+-->
+
+<!-- Add a main shape
+<xpath expr="//section" position="attributes">
+    <attribute name="data-oe-shape-data">{"shape":"web_editor/Airy/10","flip":[]}</attribute>
+</xpath>
+<xpath expr="//div[hasclass('container')]" position="before">
+    <div class="o_we_shape o_web_editor_Airy_10"/>
+</xpath>
+-->
+
+<!-- ===== TARGET SEQUENTIAL ELEMENTS ==========-->
+<!--
+<xpath expr="//div[hasclass('col-8')][1]" position="attributes">
+</xpath>
+<xpath expr="//div[hasclass('col-8')][2]" position="attributes">
+</xpath>
+<xpath expr="//div[hasclass('col-8')][3]" position="attributes">
+</xpath>
+-->
+
+<!--
+<xpath expr="//div[hasclass('col-4')]//p[1]" position="attributes">
+</xpath>
+<xpath expr="//div[hasclass('col-4')]//p[2]" position="attributes">
+</xpath>
+<xpath expr="//div[hasclass('col-4')]//p[3]" position="attributes">
+</xpath>
+-->
+
+
+<!-- ===== INNER TEXT REPLACEMENT ========== -->
+<!--
+<xpath expr="//h1" position="replace" mode="inner">
+    My chatGTP title
+</xpath>
+-->
+
+
+<!-- ===== IMAGE SHAPES ========== -->
+<!--
+<xpath expr="//img" position="attributes">
+    <attribute name="src">/web_editor/image_shape/website.[placeholder_image_id]/web_editor/composition/composition_square_3.svg?c1=o-color-1&amp;c5=o-color-2</attribute>
+    <attribute name="data-shape">web_editor/composition/composition_square_3</attribute>
+    <attribute name="data-original-mimetype">image/jpeg</attribute>
+    <attribute name="data-file-name">[placeholder_image].svg</attribute>
+    <attribute name="data-shape-colors">o-color-1;;;;o-color-2</attribute>
+</xpath> -->
+
+
+<!-- ===== OVERLAY ========== -->
+<!--
+<xpath expr="//div[hasclass('container')]" position="before">
+    <div class="o_we_bg_filter bg-black-25"/>
+</xpath>
+-->
+
+<!-- ===== APPLY A TEXT GRADIENT ==========-->
+<!--
+!!NB: Replace 'XX' with "dash dash"
+<xpath expr="//h2" position="replace" mode="inner">
+    <font style="background-image: linear-gradient(135deg, var(XXo-color-1) 0%, var(XXo-color-2) 100%);" class="text-gradient">TEXT</font>
+</xpath>
+-->
+
 </odoo>

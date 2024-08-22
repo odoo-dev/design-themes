@@ -27,6 +27,8 @@
         'views/snippets/s_text_block.xml',
         'views/snippets/s_text_image.xml',
         'views/snippets/s_accordion_image.xml',
+        # Add the file in alphabetic order
+        # 'views/snippets/s_placeholder.xml',
         'views/new_page_template.xml',
 
     ],

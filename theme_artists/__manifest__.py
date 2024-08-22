@@ -35,6 +35,8 @@
         'views/snippets/s_color_blocks_2.xml',
         'views/snippets/s_numbers_showcase.xml',
         'views/snippets/s_accordion_image.xml',
+        # Add the file in alphabetic order
+        # 'views/snippets/s_placeholder.xml',
         'views/new_page_template.xml',
     ],
     'images': [

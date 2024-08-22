@@ -23,6 +23,8 @@
         'views/snippets/s_product_catalog.xml',
         'views/snippets/s_unveil.xml',
         'views/snippets/s_numbers_showcase.xml',
+        # Add the file in alphabetic order
+        # 'views/snippets/s_placeholder.xml',
         'views/new_page_template.xml',
     ],
     'images': [
