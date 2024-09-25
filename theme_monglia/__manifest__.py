@@ -15,7 +15,7 @@
     ],
     'images': [
         'static/description/monglia_description.png',
-        'static/description/monglia_screenshot.jpeg',
+        'static/description/monglia_screenshot.jpg',
     ],
     'images_preview_theme': {
         'website.s_cover_default_image': '/theme_monglia/static/src/img/snippets/s_cover.jpg',
@@ -34,8 +34,7 @@
         'website.library_image_16': '/theme_monglia/static/src/img/snippets/library_image_16.jpg',
     },
     'configurator_snippets': {
-        'homepage': ['s_cover', 's_title', 's_text_block', 's_three_columns', 's_images_wall',
-                     's_title', 's_media_list', 's_text_image'],
+        'homepage': ['s_cover', 's_numbers_grid', 's_company_team_shapes', 's_text_block', 's_freegrid', 's_cta_box', 's_shape_image', 's_title', 's_images_wall', 's_faq_collapse', 's_references'],
     },
     'new_page_templates': {
         'about': {
