@@ -42,7 +42,7 @@
         <div class="o_we_bg_filter" style="background-image: linear-gradient(135deg, rgba(203, 94, 238, 0.5) 0%, rgba(75, 225, 236, 0.5) 100%);"/>
     </xpath>
     <xpath expr="//h1" position="replace">
-        <h1 style="text-align: center"><span class="display-1-fs">MONGLIA FESTIVAL</span></h1>
+        <h1 style="text-align: center;"><span class="display-1-fs">MONGLIA FESTIVAL</span></h1>
     </xpath>
     <xpath expr="//p[hasclass('lead')]" position="replace">
         <h2 style="text-align: center;"><span class="display-5-fs">24-26.06.2025 // Harleem, Netherlands<br/><br/></span></h2>
@@ -69,7 +69,7 @@
     </xpath>
     <xpath expr="//div[hasclass('o_grid_item')]" position="attributes">
         <attribute name="class" remove="border rounded o_cc1" add="o_cc4" separator=" "/>
-        <attribute name="style" add="--grid-item-padding-y: 24px;" separator=";"/>
+        <attribute name="style" remove="--grid-item-padding-y: 16px;" add="--grid-item-padding-y: 24px;" separator=";"/>
     </xpath>
     <!-- Card #2-->
     <xpath expr="(//div[hasclass('o_grid_item')])[2]" position="replace" mode="inner">
@@ -78,7 +78,7 @@
     </xpath>
     <xpath expr="(//div[hasclass('o_grid_item')])[2]" position="attributes">
         <attribute name="class" remove="border rounded o_cc1" add="o_cc4" separator=" "/>
-        <attribute name="style" add="--grid-item-padding-y: 24px;" separator=";"/>
+        <attribute name="style" remove="--grid-item-padding-y: 16px;" add="--grid-item-padding-y: 24px;" separator=";"/>
     </xpath>
     <!-- Card #3-->
     <xpath expr="(//div[hasclass('o_grid_item')])[3]" position="replace" mode="inner">
@@ -87,7 +87,7 @@
     </xpath>
     <xpath expr="(//div[hasclass('o_grid_item')])[3]" position="attributes">
         <attribute name="class" remove="border rounded o_cc1" add="o_cc4" separator=" "/>
-        <attribute name="style" add="--grid-item-padding-y: 24px;" separator=";"/>
+        <attribute name="style" remove="--grid-item-padding-y: 16px;" add="--grid-item-padding-y: 24px;" separator=";"/>
     </xpath>
     <!-- Card #4-->
     <xpath expr="(//div[hasclass('o_grid_item')])[4]" position="replace" mode="inner">
@@ -96,7 +96,7 @@
     </xpath>
     <xpath expr="(//div[hasclass('o_grid_item')])[4]" position="attributes">
         <attribute name="class" remove="border rounded o_cc1" add="o_cc4" separator=" "/>
-        <attribute name="style" add="--grid-item-padding-y: 24px;" separator=";"/>
+        <attribute name="style" remove="--grid-item-padding-y: 16px;" add="--grid-item-padding-y: 24px;" separator=";"/>
     </xpath>
     <!-- Delete Row #2 -->
     <xpath expr="(//div[hasclass('o_grid_item')])[5]" position="replace"/>
@@ -162,7 +162,7 @@
         <attribute name="class" add="pt56 pb40 o_cc o_cc1" remove="pt80 pb80" separator=" "/>
     </xpath>
     <xpath expr="//div[hasclass('col-lg-5')]" position="attributes">
-        <attribute name="class" add="offset-lg-1" separator=" "/>
+        <attribute name="class" remove="col-lg-5" add="col-lg-4 offset-lg-1" separator=" "/>
     </xpath>
     <xpath expr="//img" position="attributes">
         <attribute name="src">/web_editor/image_shape/website.s_text_image_default_image/web_editor/geometric/geo_square_3.svg</attribute>
@@ -994,7 +994,7 @@
         <attribute name="class" add="col-lg-12 pb32" remove="col-lg-4" separator=" "/>
     </xpath>
     <xpath expr="//div[hasclass('col-lg-7')]" position="attributes">
-        <attribute name="class" add="col-lg-8 offset-lg-2" remove="col-lg-7" separator=" "/>
+        <attribute name="class" add="col-lg-8 offset-lg-2" remove="col-lg-7 offset-lg-1" separator=" "/>
     </xpath>
     <xpath expr="//h3" position="attributes">
         <attribute name="style" add="text-align: center;" separator=";"/>

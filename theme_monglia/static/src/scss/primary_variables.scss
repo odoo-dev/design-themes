@@ -156,8 +156,6 @@ $o-website-values-palettes: (
     ),
 );
 
-$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'default-light-3');
-
 $o-color-palettes-compatibility-indexes: (
     1: 'monglia-1',
     2: 'monglia-2',
