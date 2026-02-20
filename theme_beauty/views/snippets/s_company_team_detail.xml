@@ -12,13 +12,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[1]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[1]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
     <!-- Team Member #2 -->
@@ -28,13 +28,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[2]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
     <!-- Team Member #3 -->
@@ -44,13 +44,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[3]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[3]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
     <!-- Team Member #4 -->
@@ -60,13 +60,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[4]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
     <!-- Team Member #5 -->
@@ -76,13 +76,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[5]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[5]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
     <!-- Team Member #6 -->
@@ -92,13 +92,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[6]//div[hasclass('s_social_media')]" position="attributes">
         <attribute name="class" remove="no_icon_color" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="rounded-circle shadow-sm" separator=" "/>
     </xpath>
 

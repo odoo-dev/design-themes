@@ -600,7 +600,7 @@
         <attribute name="class" add="bg-o-color-2" remove="bg-o-color-3" separator=" "/>
     </xpath>
     <xpath expr="(//i)[6]" position="attributes">
-        <attribute name="class" add="bg-o-color-2" remove="fa-2x bg-o-color-3" separator=" "/>
+        <attribute name="class" add="bg-o-color-2" remove="oi-2x bg-o-color-3" separator=" "/>
     </xpath>
 </template>
 
@@ -999,13 +999,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[2]/p[last()]" position="replace" mode="inner">
         Sophia Benett is a dedicated law professor known for her expertise in constitutional law and advocacy.
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[2]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
     <!-- Team Member #3 -->
@@ -1028,13 +1028,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[4]/p[last()]" position="replace" mode="inner">
         Emily Carter is a physics lecturer who specializes in quantum mechanics and theoretical physics.
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[4]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
     <!-- Team Member #5 -->
@@ -1057,13 +1057,13 @@
     <xpath expr="(//div[hasclass('col-lg-4')])[6]/p[last()]" position="replace" mode="inner">
         Daniel Foster is a chemistry professor renowned for his research in organic chemistry and sustainable materials.
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-github')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_github']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-linkedin')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_linkedin']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
-    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[hasclass('fa-instagram')]" position="attributes">
+    <xpath expr="(//div[hasclass('col-lg-4')])[6]//i[@data-icon='oi_instagram']" position="attributes">
         <attribute name="class" add="text-o-color-3" separator=" "/>
     </xpath>
 </template>
@@ -1113,8 +1113,8 @@
 <template id="s_empowerment" inherit_id="website.s_empowerment">
     <!-- Badge content -->
     <xpath expr="//span[hasclass('s_cta_badge')]" position="replace" mode="inner">
-        <i class="fa fa-fw fa-info-circle o_not-animable" role="img"/> Top-Ranked Programs&#160;
-        <a href="#">Discover Our Courses&#160;<i class="fa fa-long-arrow-right" role="img"/></a>
+        <i class="oi oi-fw o_not-animable" data-icon="info" role="img"/> Top-Ranked Programs&#160;
+        <a href="#">Discover Our Courses&#160;<i class="oi" data-icon="east" role="img"/></a>
     </xpath>
     <!-- Title -->
     <xpath expr="//h1" position="replace" mode="inner">
