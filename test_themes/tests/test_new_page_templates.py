@@ -127,6 +127,7 @@ S_CLASSES_WHITELIST = [
 class TestNewPageTemplates(TransactionCase):
 
     def test_template_names(self):
+        ignored_themes = ['theme_boilerplate']
         websites_themes = self.env['website'].get_test_themes_websites()
         for website in websites_themes:
             views = self.env['ir.ui.view'].search([
