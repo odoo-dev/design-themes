@@ -103,6 +103,7 @@ S_CLASSES_WHITELIST = [
     's_process_steps_connector_line', 's_tabs_nav', 's_tabs_main',
     's_tabs_nav_vertical', 's_tabs_nav_with_descriptions', 's_tabs_content',
     's_carousel', 's_carousel_default', 's_carousel_boxed', 's_carousel_intro',
+    's_carousel_multi_images',
     's_carousel_rounded', 's_carousel_cards', 's_carousel_indicators_numbers',
     's_carousel_indicators_dots', 's_quotes_carousel', 's_rating_no_title',
     's_blog_post_big_picture', 's_blog_post_card', 's_blog_post_horizontal',
@@ -127,7 +128,7 @@ S_CLASSES_WHITELIST = [
 class TestNewPageTemplates(TransactionCase):
 
     def test_template_names(self):
-        ignored_themes = ['theme_boilerplate']
+        ignored_themes = ['theme_cozytoods']
         websites_themes = self.env['website'].get_test_themes_websites()
         for website in websites_themes:
             views = self.env['ir.ui.view'].search([

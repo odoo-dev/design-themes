@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- GRADIENT -->
+    <!-- ======== -->
+    <template id="s_gradient" inherit_id="website.s_gradient">
+        <xpath expr="//div[hasclass('o_grid_item')][4]//img" position="attributes">
+            <attribute name="src">/html_editor/image_shape/website.set_2_square_md_4/html_builder/geometric_round/geo_round_square_1.svg</attribute>
+            <attribute name="data-file-name">geo_round_square_1.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_square_1</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('o_grid_item')][5]//img" position="attributes">
+            <attribute name="src">/html_editor/image_shape/website.set_2_square_md_3/html_builder/geometric_round/geo_round_square_2.svg</attribute>
+            <attribute name="data-file-name">geo_round_square_2.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_square_2</attribute>
+        </xpath>
+    </template>
+
+    <!-- PRODUCT LIST -->
+    <!-- ============ -->
+    <template id="s_product_list" inherit_id="website.s_product_list">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="o_cc o_cc1 pb0" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-8')]" position="attributes">
+            <attribute name="class" add="pb56" separator=" "/>
+        </xpath>
+        <xpath expr="//a[hasclass('btn')]" position="attributes">
+            <attribute name="class" add="btn-lg" separator=" "/>
+        </xpath>
+        <!-- Card 1 -->
+        <xpath expr="//div[hasclass('col-6')][1]" position="attributes">
+            <attribute name="class" add="col-lg-3" remove="col-lg-4" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][1]//figure[hasclass('o_card_img_wrapper')]" position="attributes">
+            <attribute name="class" add="ratio-1x1" remove="ratio-4x3" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][1]//img" position="attributes">
+            <attribute name="class" add="img img-fluid o_we_custom_image" separator=" "/>
+            <attribute name="style">padding: 6px;</attribute>
+            <attribute name="src">/html_editor/image_shape/website.set_catalog_square_md_1/html_builder/geometric_round/geo_round_circle.svg</attribute>
+            <attribute name="data-format-mimetype">image/webp</attribute>
+            <attribute name="data-file-name">set_catalog_square_md_1.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_circle</attribute>
+            <attribute name="data-shape-colors">;;;;</attribute>
+            <attribute name="data-aspect-ratio">1/1</attribute>
+        </xpath>
+        <!-- Card 2 -->
+        <xpath expr="//div[hasclass('col-6')][2]" position="attributes">
+            <attribute name="class" add="col-lg-3" remove="col-lg-4" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][2]//figure[hasclass('o_card_img_wrapper')]" position="attributes">
+            <attribute name="class" add="ratio-1x1" remove="ratio-4x3" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][2]//img" position="attributes">
+            <attribute name="class" add="img img-fluid o_we_custom_image" separator=" "/>
+            <attribute name="style">padding: 6px;</attribute>
+            <attribute name="src">/html_editor/image_shape/website.set_catalog_square_md_2/html_builder/geometric_round/geo_round_circle.svg</attribute>
+            <attribute name="data-format-mimetype">image/webp</attribute>
+            <attribute name="data-file-name">set_catalog_square_md_2.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_circle</attribute>
+            <attribute name="data-shape-colors">;;;;</attribute>
+            <attribute name="data-aspect-ratio">1/1</attribute>
+        </xpath>
+        <!-- Card 3 -->
+        <xpath expr="//div[hasclass('col-6')][3]" position="attributes">
+            <attribute name="class" add="col-lg-3" remove="col-lg-4" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][3]//figure[hasclass('o_card_img_wrapper')]" position="attributes">
+            <attribute name="class" add="ratio-1x1" remove="ratio-4x3" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][3]//img" position="attributes">
+            <attribute name="class" add="img img-fluid o_we_custom_image" separator=" "/>
+            <attribute name="style">padding: 6px;</attribute>
+            <attribute name="src">/html_editor/image_shape/website.set_catalog_square_md_3/html_builder/geometric_round/geo_round_circle.svg</attribute>
+            <attribute name="data-format-mimetype">image/webp</attribute>
+            <attribute name="data-file-name">set_catalog_square_md_3.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_circle</attribute>
+            <attribute name="data-shape-colors">;;;;</attribute>
+            <attribute name="data-aspect-ratio">1/1</attribute>
+        </xpath>
+        <!-- Card 4 -->
+        <xpath expr="//div[hasclass('col-6')][4]" position="attributes">
+            <attribute name="class" add="col-lg-3" remove="col-lg-4" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][4]//figure[hasclass('o_card_img_wrapper')]" position="attributes">
+            <attribute name="class" add="ratio-1x1" remove="ratio-4x3" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-6')][4]//img" position="attributes">
+            <attribute name="class" add="img img-fluid o_we_custom_image" separator=" "/>
+            <attribute name="style">padding: 6px;</attribute>
+            <attribute name="src">/html_editor/image_shape/website.set_catalog_square_md_4/html_builder/geometric_round/geo_round_circle.svg</attribute>
+            <attribute name="data-format-mimetype">image/webp</attribute>
+            <attribute name="data-file-name">set_catalog_square_md_4.svg</attribute>
+            <attribute name="data-shape">html_builder/geometric_round/geo_round_circle</attribute>
+            <attribute name="data-shape-colors">;;;;</attribute>
+            <attribute name="data-aspect-ratio">1/1</attribute>
+        </xpath>
+
+        <!-- Remove unnecessary cards -->
+        <xpath expr="//div[hasclass('col-6')][5]" position="replace"/>
+        <xpath expr="//div[hasclass('col-6')][5]" position="replace"/>
+    </template>
+
+    <!-- CAROUSEL -->
+    <!-- ======== -->
+    <template id="s_carousel_multi_images" inherit_id="website.s_carousel_multi_images">
+        <!-- Wrapper -->
+        <xpath expr="//div[hasclass('s_carousel_multi_images')]" position="attributes">
+            <attribute name="style">background-image: linear-gradient(0deg, color-mix(in srgb, var(--o-color-1) 50%, transparent) 0%, color-mix(in srgb, var(--o-color-2) 50%, transparent) 100%); position: relative;</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('s_carousel_multi_images')]//div[hasclass('carousel-indicators')]" position="attributes">
+            <attribute name="class" add="s_carousel_indicators_dots" remove="s_carousel_indicators_numbers" separator=" "/>
+        </xpath>
+
+        <!-- Slide 1 -->
+        <!-- ======= -->
+
+        <!-- Left part - text -->
+        <xpath expr="//div[hasclass('carousel-item')][1]//div[hasclass('o_grid_item')][1]//h2" position="replace" mode="inner">
+            <span class="o_text_highlight o_text_highlight_scribble_3 text-o-color-1" style="--text-highlight-color: var(--o-color-2);">
+                <strong>Wood</strong>
+                <svg fill="none" class="o_text_highlight_svg o_content_no_merge position-absolute overflow-visible pe-none" contenteditable="false" style="inset: 0px;"><path stroke-width="var(--text-highlight-width)" stroke="var(--text-highlight-color)" stroke-linecap="round" fill="var(--text-highlight-color);" transform="translate(0 38.22222595214844) scale(0.4230035400390625, 0.44791671037673947)" d="M133.953 15.961c7.87.502 15.751.975 23.611 1.522 2.027.141 4.055.44 5.999.79 4.118.727 7.202 4.977 2.53 6.707.606.293 1.181.564 1.902.908-8.477 2.069-17.267 2.65-26.203 2.818-19.023.361-38.056.603-57.068 1.088-13.807.355-27.572 1.06-41.369 1.545-3.23.113-6.532.096-9.73-.147-1.548-.118-3.492-.721-4.234-1.42-.93-.88-1.484-2.199-.93-3.1.397-.655 2.812-1.263 4.41-1.33 6.397-.277 12.825-.333 19.243-.474 26.976-.592 53.942-1.156 80.919-1.804 3.742-.09 7.452-.592 11.173-.908 0-.174-.01-.35-.021-.524-2.717-.197-5.435-.53-8.163-.575-21.865-.383-43.741-1.009-65.607-.936-11.34.04-22.65 1.432-34 2.047-6.898.377-13.88.732-20.779.569-7.044-.17-9.406-3.568-5.34-6.742 3.428-2.677 7.567-4.391 13.984-4.757 16.441-.93 32.798-2.26 49.219-3.27 14.162-.868 28.366-1.516 42.549-2.266.586-.034 1.15-.147 1.641-.45-5.006 0-10.023-.012-15.029.01-1.077 0-2.154.186-3.24.192-18.793.18-37.596.355-56.389.507-10.672.085-21.343.13-32.014.153a65.89 65.89 0 0 1-6.167-.277C1.787 5.555-.02 4.247 0 2.59 0 1.384.89.72 3.293.742c5.874.056 11.748.124 17.622.09C41.045.708 61.186.409 81.317.42c28.408.012 56.827.158 85.225.417 8.686.08 17.35.7 26.015 1.122 3.23.158 5.832.902 7.024 2.678 1.055 1.572.125 2.21-2.875 1.95a30.51 30.51 0 0 0-2.268-.107c-.397 0-.805.073-1.557.146.721.451 1.306.767 1.777 1.128 2.926 2.238 1.641 4.013-3.272 4.369-13.483.958-26.966 1.91-40.459 2.767-3.334.214-6.752 0-10.118.085-2.31.062-4.609.299-6.909.462l.042.519.011.005Z"></path></svg>
+            </span>
+            <strong class="text-o-color-1"> Toys</strong>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][1]//div[hasclass('o_grid_item')][1]//h2" position="after">
+            <br/>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][1]//div[hasclass('o_grid_item')][1]//a" position="attributes">
+            <attribute name="class" add="btn-lg btn-secondary" separator=" "/>
+        </xpath>
+
+        <!-- Right part - images -->
+        <xpath expr="//div[hasclass('carousel-item')][1]//div[hasclass('o_grid_item')][2]" position="attributes">
+            <attribute name="class" add="o_grid_item_image g-height-8 rounded g-col-lg-5 col-lg-5" remove="g-height-3 g-col-lg-4 col-lg-4" separator=" "/>
+            <attribute name="style">z-index: 3; grid-area: 1 / 7 / 9 / 12; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; --box-border-bottom-left-radius: 64px; --box-border-bottom-right-radius: 64px; --box-border-top-right-radius: 64px; --box-border-top-left-radius: 64px;</attribute>
+        </xpath>
+
+        <!-- Slide 2 -->
+        <!-- ======= -->
+
+        <!-- Right part - text -->
+        <xpath expr="//div[hasclass('carousel-item')][2]//div[hasclass('o_grid_item')][1]" position="attributes">
+            <attribute name="class" add="g-height-8 g-col-lg-4 col-lg-4" remove="g-height-5 g-col-lg-6 col-lg-6" separator=" "/>
+            <attribute name="style">z-index: 1; grid-area: 1 / 9 / 9 / 13;</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][2]//div[hasclass('o_grid_item')][1]//h2" position="replace" mode="inner">
+            <span class="o_text_highlight o_text_highlight_scribble_3 text-o-color-1" style="--text-highlight-color: var(--o-color-2);">
+                <strong>Plush</strong>
+                <svg fill="none" class="o_text_highlight_svg o_content_no_merge position-absolute overflow-visible pe-none" contenteditable="false" style="inset: 0px;"><path stroke-width="var(--text-highlight-width)" stroke="var(--text-highlight-color)" stroke-linecap="round" fill="var(--text-highlight-color);" transform="translate(0 38.22222595214844) scale(0.4230035400390625, 0.44791671037673947)" d="M133.953 15.961c7.87.502 15.751.975 23.611 1.522 2.027.141 4.055.44 5.999.79 4.118.727 7.202 4.977 2.53 6.707.606.293 1.181.564 1.902.908-8.477 2.069-17.267 2.65-26.203 2.818-19.023.361-38.056.603-57.068 1.088-13.807.355-27.572 1.06-41.369 1.545-3.23.113-6.532.096-9.73-.147-1.548-.118-3.492-.721-4.234-1.42-.93-.88-1.484-2.199-.93-3.1.397-.655 2.812-1.263 4.41-1.33 6.397-.277 12.825-.333 19.243-.474 26.976-.592 53.942-1.156 80.919-1.804 3.742-.09 7.452-.592 11.173-.908 0-.174-.01-.35-.021-.524-2.717-.197-5.435-.53-8.163-.575-21.865-.383-43.741-1.009-65.607-.936-11.34.04-22.65 1.432-34 2.047-6.898.377-13.88.732-20.779.569-7.044-.17-9.406-3.568-5.34-6.742 3.428-2.677 7.567-4.391 13.984-4.757 16.441-.93 32.798-2.26 49.219-3.27 14.162-.868 28.366-1.516 42.549-2.266.586-.034 1.15-.147 1.641-.45-5.006 0-10.023-.012-15.029.01-1.077 0-2.154.186-3.24.192-18.793.18-37.596.355-56.389.507-10.672.085-21.343.13-32.014.153a65.89 65.89 0 0 1-6.167-.277C1.787 5.555-.02 4.247 0 2.59 0 1.384.89.72 3.293.742c5.874.056 11.748.124 17.622.09C41.045.708 61.186.409 81.317.42c28.408.012 56.827.158 85.225.417 8.686.08 17.35.7 26.015 1.122 3.23.158 5.832.902 7.024 2.678 1.055 1.572.125 2.21-2.875 1.95a30.51 30.51 0 0 0-2.268-.107c-.397 0-.805.073-1.557.146.721.451 1.306.767 1.777 1.128 2.926 2.238 1.641 4.013-3.272 4.369-13.483.958-26.966 1.91-40.459 2.767-3.334.214-6.752 0-10.118.085-2.31.062-4.609.299-6.909.462l.042.519.011.005Z"></path></svg>
+            </span>
+            <strong class="text-o-color-1"> Toys</strong>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][2]//div[hasclass('o_grid_item')][1]//h2" position="after">
+            <br/>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][2]//div[hasclass('o_grid_item')][1]//a" position="attributes">
+            <attribute name="class" add="btn-lg btn-secondary" separator=" "/>
+        </xpath>
+
+        <!-- Left part - images -->
+        <xpath expr="//div[hasclass('carousel-item')][2]//div[hasclass('o_grid_item')][2]" position="attributes">
+            <attribute name="class" add="g-height-9 rounded" remove="g-height-7" separator=" "/>
+            <attribute name="style">--grid-item-padding-y: 0px; --grid-item-padding-x: 0px; --box-border-bottom-left-radius: 64px; --box-border-bottom-right-radius: 64px; --box-border-top-right-radius: 64px; --box-border-top-left-radius: 64px; border-color: rgba(255, 255, 255, 0) !important; z-index: 3; grid-area: 1 / 2 / 10 / 7;</attribute>
+        </xpath>
+
+        <!-- Slide 3 -->
+        <!-- ======= -->
+
+        <!-- Left part - text -->
+        <xpath expr="//div[hasclass('carousel-item')][3]//div[hasclass('o_grid_item')][1]" position="attributes">
+            <attribute name="class" add="g-col-lg-4 col-lg-4" remove="g-col-lg-5 col-lg-5" separator=" "/>
+            <attribute name="style">z-index: 1; grid-area: 1 / 1 / 9 / 5;</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][3]//div[hasclass('o_grid_item')][1]//h2" position="replace" mode="inner">
+            <span class="o_text_highlight o_text_highlight_scribble_3 text-o-color-1" style="--text-highlight-color: var(--o-color-2);">
+                <strong>Musical</strong>
+                <svg fill="none" class="o_text_highlight_svg o_content_no_merge position-absolute overflow-visible pe-none" contenteditable="false" style="inset: 0px;"><path stroke-width="var(--text-highlight-width)" stroke="var(--text-highlight-color)" stroke-linecap="round" fill="var(--text-highlight-color)" transform="translate(0 38.22222900390625) scale(0.689236068725586, 0.44791674613952637)" d="M133.953 15.961c7.87.502 15.751.975 23.611 1.522 2.027.141 4.055.44 5.999.79 4.118.727 7.202 4.977 2.53 6.707.606.293 1.181.564 1.902.908-8.477 2.069-17.267 2.65-26.203 2.818-19.023.361-38.056.603-57.068 1.088-13.807.355-27.572 1.06-41.369 1.545-3.23.113-6.532.096-9.73-.147-1.548-.118-3.492-.721-4.234-1.42-.93-.88-1.484-2.199-.93-3.1.397-.655 2.812-1.263 4.41-1.33 6.397-.277 12.825-.333 19.243-.474 26.976-.592 53.942-1.156 80.919-1.804 3.742-.09 7.452-.592 11.173-.908 0-.174-.01-.35-.021-.524-2.717-.197-5.435-.53-8.163-.575-21.865-.383-43.741-1.009-65.607-.936-11.34.04-22.65 1.432-34 2.047-6.898.377-13.88.732-20.779.569-7.044-.17-9.406-3.568-5.34-6.742 3.428-2.677 7.567-4.391 13.984-4.757 16.441-.93 32.798-2.26 49.219-3.27 14.162-.868 28.366-1.516 42.549-2.266.586-.034 1.15-.147 1.641-.45-5.006 0-10.023-.012-15.029.01-1.077 0-2.154.186-3.24.192-18.793.18-37.596.355-56.389.507-10.672.085-21.343.13-32.014.153a65.89 65.89 0 0 1-6.167-.277C1.787 5.555-.02 4.247 0 2.59 0 1.384.89.72 3.293.742c5.874.056 11.748.124 17.622.09C41.045.708 61.186.409 81.317.42c28.408.012 56.827.158 85.225.417 8.686.08 17.35.7 26.015 1.122 3.23.158 5.832.902 7.024 2.678 1.055 1.572.125 2.21-2.875 1.95a30.51 30.51 0 0 0-2.268-.107c-.397 0-.805.073-1.557.146.721.451 1.306.767 1.777 1.128 2.926 2.238 1.641 4.013-3.272 4.369-13.483.958-26.966 1.91-40.459 2.767-3.334.214-6.752 0-10.118.085-2.31.062-4.609.299-6.909.462l.042.519.011.005Z"></path></svg>
+            </span>
+            <strong class="text-o-color-1"> Toys</strong>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][3]//div[hasclass('o_grid_item')][1]//h2" position="after">
+            <br/>
+        </xpath>
+        <xpath expr="//div[hasclass('carousel-item')][3]//div[hasclass('o_grid_item')][1]//a" position="attributes">
+            <attribute name="class" add="btn-lg btn-secondary" separator=" "/>
+        </xpath>
+
+        <!-- Right part - images -->
+        <xpath expr="//div[hasclass('carousel-item')][3]//div[hasclass('o_grid_item')][2]" position="attributes">
+            <attribute name="class" add="g-col-lg-5 col-lg-5" remove="g-col-lg-3 col-lg-3" separator=" "/>
+            <attribute name="style">z-index: 3; grid-area: 1 / 7 / 9 / 12; --grid-item-padding-y: 0px; --grid-item-padding-x: 0px; --box-border-bottom-left-radius: 64px; --box-border-bottom-right-radius: 64px; --box-border-top-right-radius: 64px; --box-border-top-left-radius: 64px;</attribute>
+        </xpath>
+    </template>
+
+    <!-- CARDS IMAGE GRID -->
+    <!-- ================ -->
+    <template id="s_cards_grid" inherit_id="website.s_cards_grid">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="o_cc1" remove="o_cc2" separator=" "/>
+        </xpath>
+        <!-- Title -->
+        <xpath expr="//h2" position="attributes">
+            <attribute name="class" remove="h3-fs" separator=" "/>
+        </xpath>
+        <xpath expr="//h2" position="after">
+            <p class="lead"><span class="h6-fs">Discover hundreds of toys for all ages and every interest</span></p>
+        </xpath>
+        <!-- Card 1 -->
+        <xpath expr="(//div[hasclass('s_card')])[1]" position="attributes">
+            <attribute name="class" add="shadow-sm" separator=" "/>
+        </xpath>
+        <!-- Card 2 -->
+        <xpath expr="(//div[hasclass('s_card')])[2]" position="attributes">
+            <attribute name="class" add="shadow-sm" separator=" "/>
+        </xpath>
+        <!-- Card 3 -->
+        <xpath expr="(//div[hasclass('s_card')])[3]" position="attributes">
+            <attribute name="class" add="shadow-sm" separator=" "/>
+        </xpath>
+        <!-- Card 4 -->
+        <xpath expr="(//div[hasclass('s_card')])[4]" position="attributes">
+            <attribute name="class" add="shadow-sm" separator=" "/>
+        </xpath>
+
+    </template>
+
+    <!-- FOOTER -->
+    <!-- ====== -->
+    <template id="template_footer_mega_columns" inherit_id="website.template_footer_mega_columns">
+        <xpath expr="//div[hasclass('col-lg-4')][1]//div[hasclass('s_text_highlight')]//h4" position="attributes">
+            <attribute name="class" add="text-o-color-2" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-lg-4')][2]//div[hasclass('s_text_highlight')]//h4" position="attributes">
+            <attribute name="class" add="text-o-color-2" separator=" "/>
+        </xpath>
+        <xpath expr="//div[hasclass('col-lg-4')][3]//div[hasclass('s_text_highlight')]//h4" position="attributes">
+            <attribute name="class" add="text-o-color-2" separator=" "/>
+        </xpath>
+    </template>
+
+</odoo>

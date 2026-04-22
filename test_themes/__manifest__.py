@@ -17,7 +17,6 @@
         'theme_avantgarde',
         'theme_aviato',
         'theme_beauty',
-        'theme_boilerplate',
         'theme_bewise',
         'theme_bistro',
         'theme_bookstore',
@@ -46,6 +45,7 @@
         'theme_yes',
         'theme_zap',
         'theme_zenith',
+        'theme_cozytoods',
     ],
     'post_init_hook': 'post_init_hook',
     'assets': {

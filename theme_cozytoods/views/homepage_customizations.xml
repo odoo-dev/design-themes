@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- GRADIENT -->
+    <!-- ======== -->
+    <template id="configurator_s_gradient" inherit_id="website.configurator_s_gradient">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="pt72 pb184" remove="pt96 pb0" separator=" "/>
+            <attribute name="data-oe-shape-data">{"shape":"html_builder/Clouds/01","colors":{"c4":"o-color-4"},"flip":[],"showOnMobile":false,"shapeAnimationSpeed":"0","selectedColor":true}</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('container-fluid')]" position="before">
+            <div class="o_we_shape o_html_builder_Clouds_01" contenteditable="false"></div>
+        </xpath>
+    </template>
+
+    <!-- PRODUCT LIST -->
+    <!-- ============ -->
+    <template id="configurator_s_product_list" inherit_id="website.configurator_s_product_list">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="pt0 pb136" remove="pt64 pb64" separator=" "/>
+        </xpath>
+    </template>
+
+
+    <!-- CARDS IMAGE GRID -->
+    <!-- ================ -->
+    <template id="configurator_s_cards_grid" inherit_id="website.configurator_s_cards_grid">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="pb0" remove="pb64" separator=" "/>
+        </xpath>
+    </template>
+
+    <!-- TWO COLUMNS WITH STICKY -->
+    <!-- ========================= -->
+    <template id="configurator_s_two_columns_sticky" inherit_id="website.configurator_s_two_columns_sticky">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="o_cc2 pt192 pb72" remove="o_cc1 pt32 pb32" separator=" "/>
+            <attribute name="data-oe-shape-data">{"shape":"html_builder/Clouds/03","colors":{"c4":"o-color-4"},"flip":["y"],"showOnMobile":false,"shapeAnimationSpeed":"0","selectedColor":false}</attribute>
+        </xpath>
+        <xpath expr="//section//div[hasclass('container')]" position="before">
+            <div class="o_we_shape o_html_builder_Clouds_03" style="background-image: url('/html_editor/shape/html_builder%2FClouds%2F03.svg?c4=o-color-4&amp;flip=y'); background-position: 50% 0%;"></div>
+        </xpath>
+
+    </template>
+
+    <!-- CAROUSEL -->
+    <!-- ======== -->
+    <template id="configurator_s_carousel_multi_images" inherit_id="website.configurator_s_carousel_multi_images">
+        <!-- Slide 1 -->
+        <xpath expr="//div[hasclass('carousel-item')][1]" position="attributes">
+            <attribute name="class" add="pb80 pt104" remove="pt80 pb80" separator=" "/>
+        </xpath>
+
+        <!-- Slide 2 -->
+        <xpath expr="//div[hasclass('carousel-item')][2]" position="attributes">
+            <attribute name="class" add="pb80 pt104" remove="pt80 pb80" separator=" "/>
+        </xpath>
+
+        <!-- Slide 3 -->
+        <xpath expr="//div[hasclass('carousel-item')][3]" position="attributes">
+            <attribute name="class" add="pb80 pt104" remove="pt80 pb80" separator=" "/>
+        </xpath>
+    </template>
+
+    <!-- REVIEWS WALL -->
+    <!-- ========== -->
+    <template id="configurator_s_reviews_wall" inherit_id="website.configurator_s_reviews_wall">
+        <xpath expr="//section" position="attributes">
+            <attribute name="class" add="o_cc5 pt184" remove="o_cc2 pt80" separator=" "/>
+            <attribute name="data-oe-shape-data">{"shape":"html_builder/Clouds/07","colors":{"c4":"o-color-3"},"flip":["y"],"showOnMobile":false,"shapeAnimationSpeed":"0","selectedColor":true}</attribute>
+        </xpath>
+        <xpath expr="//div[hasclass('container')]" position="before">
+            <div class="o_we_shape o_html_builder_Clouds_07" style="background-image: url(&quot;/html_editor/shape/html_builder%2FClouds%2F07.svg?c4=o-color-3&amp;flip=y&quot;);background-position: 50% 0%;" contenteditable="false"></div>
+        </xpath>
+    </template>
+
+</odoo>

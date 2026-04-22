@@ -1,0 +1,106 @@
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+$o-theme-h1-font-size-multiplier: (62 / 16);
+$o-theme-h2-font-size-multiplier: (44 / 16);
+$o-theme-h3-font-size-multiplier: (32 / 16);
+$o-theme-h4-font-size-multiplier: (24 / 16);
+$o-theme-h5-font-size-multiplier: (20 / 16);
+$o-theme-h6-font-size-multiplier: (18 / 16);
+
+//------------------------------------------------------------------------------
+// Presets
+//------------------------------------------------------------------------------
+
+$o-website-values-palettes: (
+    (
+        'color-palettes-name': 'cozy',
+
+        // Font
+        'font': 'Inter',
+        'headings-font': 'Parkinsans',
+        'buttons-font': 'Parkinsans',
+
+        // Buttons
+        'btn-border-radius': 10rem,
+        'btn-border-radius-sm': 10rem,
+        'btn-border-radius-lg': 10rem,
+
+        // Header & Footer
+        'header-template': 'search',
+        'footer-template': 'mega_columns',
+    ),
+);
+
+// Main palette
+$o-color-palettes: map-merge($o-color-palettes, (
+    'cozy': (
+        'o-color-1': #f3696e,
+        'o-color-2': #f8a902,
+        'o-color-3': #FCF3E8,
+        'o-color-4': #FFFFFF,
+        'o-color-5': #0D0D44,
+
+        // Colors presets
+        'o-cc1-h2': 'o-color-2',
+        'o-cc1-h3': 'o-color-1',
+        
+        'o-cc2-h5': 'o-color-1',
+        'o-cc2-link': 'o-color-5',
+
+        'footer': 2,
+    )
+));
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'cozy');
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+$o-theme-font-configs: (
+    'Parkinsans': (
+        'family': ('Parkinsans', sans-serif),
+        'url': 'Parkinsans:300,400,500,600,700,800',
+    ),
+    'Roboto': (
+        'family': ('Roboto', sans-serif),
+        'url': 'Roboto:300,300i,400,400i,500,500i',
+    ),
+    'Lato': (
+        'family': ('Lato', sans-serif),
+        'url': 'Lato:300,300i,400,400i,700,700i',
+    ),
+    'Playfair Display': (
+        'family': ('Playfair Display', serif),
+        'url': 'Playfair+Display:400,400i,700,700i',
+    ),
+    'Advent Pro': (
+        'family': ('Advent Pro', sans-serif),
+        'url': 'Advent+Pro:300,300i,400,400i,600,600i',
+        'base': (
+            'font-size-base':               1.125rem,
+        ),
+    ),
+    'Oswald': (
+        'family': ('Oswald', sans-serif),
+        'url': 'Oswald:200,200i,400,400i,500,500i',
+        'base': (
+            'font-size-base':               1.25rem,
+        ),
+    ),
+    'Oxygen': (
+        'family': ('Oxygen', sans-serif),
+        'url': 'Oxygen:300,300i,400,400i,700,700i',
+    ),
+    'Open Sans': (
+        'family': ('Open Sans', sans-serif),
+        'url': 'Open+Sans:300,300i,400,400i,600,600i',
+    ),
+    'Inter': (
+        'family': ('Inter', sans-serif),
+        'url': 'Inter:300,300i,400,400i,600,600i,800,800i',
+    ),
+);
+
