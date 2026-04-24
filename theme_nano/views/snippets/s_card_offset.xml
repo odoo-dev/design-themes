@@ -12,7 +12,7 @@
     </xpath>
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.library_image_03</attribute>
+        <attribute name="src">/web/image/website.set_2_square_md_1</attribute>
     </xpath>
     <!-- Title -->
     <xpath expr="//h2" position="replace" mode="inner">

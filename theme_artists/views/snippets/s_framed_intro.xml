@@ -15,7 +15,7 @@
         <attribute name="class" add="o_cc4" remove="o_cc2" separator=" "/>
     </xpath>
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_text_image_default_image</attribute>
+        <attribute name="src">/web/image/website.landscape_md_3</attribute>
     </xpath>
 </template>
 

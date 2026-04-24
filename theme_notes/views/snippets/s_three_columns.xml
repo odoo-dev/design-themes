@@ -39,7 +39,7 @@
         <attribute name="style" add="border-width: 0px !important;" separator=";"/>
     </xpath>
     <xpath expr="(//div[hasclass('s_card')])[2]//img" position="attributes">
-        <attribute name="src">/web/image/website.s_carousel_default_image_2</attribute>
+        <attribute name="src">/web/image/website.ultrawide_lg_3</attribute>
     </xpath>
     <xpath expr="(//div[hasclass('s_card')])[2]//h2" position="replace">
         <h2 class="card-title h4-fs">Barcelona Night</h2>

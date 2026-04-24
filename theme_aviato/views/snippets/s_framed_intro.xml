@@ -8,7 +8,7 @@
     </xpath>
     <xpath expr="//img" position="attributes">
         <attribute name="class" add="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_three_columns_default_image_2</attribute>
+        <attribute name="src">/web/image/website.set_1_landscape_sm_2</attribute>
     </xpath>
 </template>
 

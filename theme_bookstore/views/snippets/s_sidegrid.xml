@@ -5,15 +5,15 @@
     <!-- Images -->
     <xpath expr="//img" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_text_image_default_image</attribute>
+        <attribute name="src">/web/image/website.landscape_md_3</attribute>
     </xpath>
     <xpath expr="(//img)[2]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_banner_default_image_2</attribute>
+        <attribute name="src">/web/image/website.portrait_lg_3</attribute>
     </xpath>
     <xpath expr="(//img)[3]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_banner_default_image</attribute>
+        <attribute name="src">/web/image/website.landscape_md_1</attribute>
     </xpath>
     <xpath expr="(//img)[4]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>

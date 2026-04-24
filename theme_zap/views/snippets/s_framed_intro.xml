@@ -4,7 +4,7 @@
 <template id="s_framed_intro" inherit_id="website.s_framed_intro">
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_masonry_block_default_image_1</attribute>
+        <attribute name="src">/web/image/website.set_2_square_md_5</attribute>
     </xpath>
 </template>
 

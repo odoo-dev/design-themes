@@ -4,7 +4,7 @@
 <template id="s_image_frame" inherit_id="website.s_image_frame">
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_three_columns_default_image_3</attribute>
+        <attribute name="src">/web/image/website.set_1_landscape_sm_3</attribute>
     </xpath>
 </template>
 

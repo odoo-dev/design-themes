@@ -21,7 +21,7 @@
         Old Harry Rocks, Isle of Purbeck
     </xpath>
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_popup_default_image</attribute>
+        <attribute name="src">/web/image/website.landscape_md_1</attribute>
     </xpath>
 </template>
 

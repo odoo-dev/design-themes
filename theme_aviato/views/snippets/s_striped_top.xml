@@ -19,7 +19,7 @@
     </xpath>
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_media_list_default_image_1</attribute>
+        <attribute name="src">/web/image/website.set_1_landscape_sm_1</attribute>
     </xpath>
 </template>
 

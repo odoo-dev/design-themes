@@ -8,7 +8,7 @@
     </xpath>
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_image_text_default_image</attribute>
+        <attribute name="src">/web/image/website.landscape_md_2</attribute>
     </xpath>
 </template>
 

@@ -16,7 +16,7 @@
     </xpath>
     <!-- Image -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_quotes_carousel_demo_image_1</attribute>
+        <attribute name="src">/web/image/website.ultrawide_lg_1</attribute>
     </xpath>
     <!-- Figcaption -->
     <xpath expr="//figcaption" position="replace" mode="inner">
