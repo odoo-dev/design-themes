@@ -441,4 +441,298 @@ Check in theme_monglia's primary_variables.scss, theme.scss and theme_common's m
     <field name="url">/theme_vehicle/static/src/img/snippets/s_splash_intro_default_image.webp</field>
 </record>
 
+<!-- New configurator image records -->
+<!-- 1484x958, landscape -->
+<!-- TODO multiple candidates (using website.s_banner_default_image); also: website.library_image_02, website.s_popup_default_image, website.s_accordion_image_default_image -->
+<record id="landscape_md_1" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_1</field>
+    <field name="name">website.landscape_md_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_banner.webp</field>
+</record>
+
+<!-- 811x541, landscape -->
+<record id="landscape_md_2" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_2</field>
+    <field name="name">website.landscape_md_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_image_text.webp</field>
+</record>
+
+<!-- 811x541, landscape -->
+<record id="landscape_md_3" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_3</field>
+    <field name="name">website.landscape_md_3</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_text_image.webp</field>
+</record>
+
+<!-- 1200x800, landscape -->
+<record id="landscape_md_4" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_4</field>
+    <field name="name">website.landscape_md_4</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_masonry_block_2.webp</field>
+</record>
+
+<!-- 1200x922, landscape -->
+<!-- TODO multiple candidates (using website.s_text_cover_default_image); also: website.s_carousel_intro_default_image_1 -->
+<record id="landscape_md_5" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_5</field>
+    <field name="name">website.landscape_md_5</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_masonry_block.webp</field>
+</record>
+
+<!-- 968x633, landscape -->
+<!-- TODO multiple candidates (using website.s_wavy_grid_default_image_1); also: website.s_quadrant_default_image_1 -->
+<record id="landscape_md_6" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_6</field>
+    <field name="name">website.landscape_md_6</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_images_wall_3.webp</field>
+</record>
+
+<!-- 1391x620, ultrawide -->
+<!-- TODO multiple candidates (using website.s_sidegrid_default_image_1); also: website.library_image_08, website.s_quadrant_default_image_2, website.s_images_constellation_default_image -->
+<record id="landscape_md_7" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_7</field>
+    <field name="name">website.landscape_md_7</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_newsletter.webp</field>
+</record>
+
+<!-- 1920x980, ultrawide -->
+<!-- TODO multiple candidates (using website.s_picture_default_image); also: website.s_quadrant_default_image_3 -->
+<record id="landscape_md_8" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_8</field>
+    <field name="name">website.landscape_md_8</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_picture.webp</field>
+</record>
+
+<!-- 527x411, landscape -->
+<!-- TODO multiple candidates (using website.s_shape_image_default_image); also: website.s_wavy_grid_default_image_4, website.s_quadrant_default_image_4 -->
+<record id="landscape_md_9" model="theme.ir.attachment">
+    <field name="key">website.landscape_md_9</field>
+    <field name="name">website.landscape_md_9</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_shape_image_default_image.webp</field>
+</record>
+
+<!-- 1433x896, landscape -->
+<!-- TODO multiple candidates (using website.s_cover_default_image); also: website.s_website_form_overlay_default_image, website.s_website_form_cover_default_image, website.s_parallax_default_image -->
+<record id="landscape_xl_1" model="theme.ir.attachment">
+    <field name="key">website.landscape_xl_1</field>
+    <field name="name">website.landscape_xl_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_cover.webp</field>
+</record>
+
+<!-- 1440x960, landscape -->
+<!-- TODO multiple candidates (using website.s_splash_intro_default_image); also: website.s_pricelist_boxed_default_background -->
+<record id="landscape_xl_2" model="theme.ir.attachment">
+    <field name="key">website.landscape_xl_2</field>
+    <field name="name">website.landscape_xl_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_splash_intro_default_image.webp</field>
+</record>
+
+<!-- 554x646, portrait -->
+<!-- TODO multiple candidates (using website.s_empowerment_default_image); also: website.s_intro_pill_default_image, website.s_key_images_default_image_2, website.s_wavy_grid_default_image_2 -->
+<record id="portrait_lg_1" model="theme.ir.attachment">
+    <field name="key">website.portrait_lg_1</field>
+    <field name="name">website.portrait_lg_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_empowerment_default_image.webp</field>
+</record>
+
+<!-- 439x439, square -->
+<!-- TODO multiple candidates (using website.s_intro_pill_default_image_2); also: website.s_key_images_default_image_4, website.s_sidegrid_default_image_4, website.s_wavy_grid_default_image_3 -->
+<record id="portrait_lg_2" model="theme.ir.attachment">
+    <field name="key">website.portrait_lg_2</field>
+    <field name="name">website.portrait_lg_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_intro_pill_default_image_2.webp</field>
+</record>
+
+<!-- 820x960, portrait -->
+<!-- TODO multiple candidates (using website.s_banner_default_image_2); also: website.s_sidegrid_default_image_2 -->
+<record id="portrait_lg_3" model="theme.ir.attachment">
+    <field name="key">website.portrait_lg_3</field>
+    <field name="name">website.portrait_lg_3</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_banner_2.webp</field>
+</record>
+
+<!-- 618x412, landscape -->
+<record id="set_1_landscape_sm_1" model="theme.ir.attachment">
+    <field name="key">website.set_1_landscape_sm_1</field>
+    <field name="name">website.set_1_landscape_sm_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_media_list_1.webp</field>
+</record>
+
+<!-- 968x633, landscape -->
+<!-- TODO multiple candidates (using website.library_image_13); also: website.s_media_list_default_image_2 -->
+<record id="set_1_landscape_sm_2" model="theme.ir.attachment">
+    <field name="key">website.set_1_landscape_sm_2</field>
+    <field name="name">website.set_1_landscape_sm_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_three_columns_2.webp</field>
+</record>
+
+<!-- 618x412, landscape -->
+<record id="set_1_landscape_sm_3" model="theme.ir.attachment">
+    <field name="key">website.set_1_landscape_sm_3</field>
+    <field name="name">website.set_1_landscape_sm_3</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_media_list_3.webp</field>
+</record>
+
+<!-- 300x300, square -->
+<!-- TODO multiple candidates (using website.s_product_list_default_image_1); also: website.library_image_03, website.s_showcase_default_image -->
+<record id="set_2_square_md_1" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_1</field>
+    <field name="name">website.set_2_square_md_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_product_1.webp</field>
+</record>
+
+<!-- 300x300, square -->
+<!-- TODO multiple candidates (using website.s_product_list_default_image_2); also: website.s_banner_default_image_3, website.s_split_intro_default_image, website.s_images_mosaic_default_image_2, website.library_image_16 -->
+<record id="set_2_square_md_2" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_2</field>
+    <field name="name">website.set_2_square_md_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_product_2.webp</field>
+</record>
+
+<!-- 300x300, square -->
+<record id="set_2_square_md_3" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_3</field>
+    <field name="name">website.set_2_square_md_3</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_product_3.webp</field>
+</record>
+
+<!-- 300x300, square -->
+<!-- TODO multiple candidates (using website.s_product_list_default_image_4); also: website.s_key_images_default_image_1, website.library_image_05, website.s_images_mosaic_default_image_4 -->
+<record id="set_2_square_md_4" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_4</field>
+    <field name="name">website.set_2_square_md_4</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_product_4.webp</field>
+</record>
+
+<!-- 1200x922, landscape -->
+<!-- TODO multiple candidates (using website.s_masonry_block_default_image_1); also: website.s_product_list_default_image_5, website.s_key_images_default_image_3, website.library_image_10, website.s_images_mosaic_default_image_5 -->
+<record id="set_2_square_md_5" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_5</field>
+    <field name="name">website.set_2_square_md_5</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_masonry_block.webp</field>
+</record>
+
+<!-- 522x423, landscape -->
+<!-- TODO multiple candidates (using website.s_images_constellation_default_image_2); also: website.s_product_list_default_image_6, website.s_images_mosaic_default_image_1, website.library_image_14 -->
+<record id="set_2_square_md_6" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_6</field>
+    <field name="name">website.set_2_square_md_6</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_images_constellation_default_image_2.webp</field>
+</record>
+
+<!-- 416x329, landscape -->
+<!-- TODO multiple candidates (using website.s_images_constellation_default_image_1); also: website.s_images_mosaic_default_image_3 -->
+<record id="set_2_square_md_7" model="theme.ir.attachment">
+    <field name="key">website.set_2_square_md_7</field>
+    <field name="name">website.set_2_square_md_7</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_images_constellation_default_image_1.webp</field>
+</record>
+
+<!-- <record id="set_avatars_squarish_sm_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_deco_landscape_xl_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_portrait_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_doers_portrait_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- 1920x1047, landscape -->
+<record id="ultrawide_lg_1" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_1</field>
+    <field name="name">website.ultrawide_lg_1</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_quotes_carousel_1.webp</field>
+</record>
+
+<!-- 1920x999, ultrawide -->
+<!-- TODO multiple candidates (using website.s_quotes_carousel_demo_image_2); also: website.s_kickoff_default_image -->
+<record id="ultrawide_lg_2" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_2</field>
+    <field name="name">website.ultrawide_lg_2</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_quotes_carousel_2.webp</field>
+</record>
+
+<!-- 1368x912, landscape -->
+<!-- TODO multiple candidates (using website.s_carousel_default_image_2); also: website.s_carousel_cards_default_image_2 -->
+<record id="ultrawide_lg_3" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_3</field>
+    <field name="name">website.ultrawide_lg_3</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_carousel_2.webp</field>
+</record>
+
+<!-- 1488x805, landscape -->
+<!-- TODO multiple candidates (using website.s_carousel_default_image_3); also: website.s_carousel_cards_default_image_3 -->
+<record id="ultrawide_lg_4" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_4</field>
+    <field name="name">website.ultrawide_lg_4</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_carousel_3.webp</field>
+</record>
+
+<!-- 1459x804, landscape -->
+<!-- TODO multiple candidates (using website.s_carousel_default_image_1); also: website.s_carousel_cards_default_image_1, website.s_quotes_carousel_demo_image_0, website.s_sidegrid_default_image_3 -->
+<record id="ultrawide_lg_5" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_5</field>
+    <field name="name">website.ultrawide_lg_5</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_carousel_1.webp</field>
+</record>
+
+<!-- 1600x1067, landscape -->
+<!-- TODO multiple candidates (using website.s_carousel_intro_default_image_2); also: website.s_image_title_default_image -->
+<record id="ultrawide_lg_6" model="theme.ir.attachment">
+    <field name="key">website.ultrawide_lg_6</field>
+    <field name="name">website.ultrawide_lg_6</field>
+    <field name="url">/theme_vehicle/static/src/img/snippets/s_img_gallery_1.webp</field>
+</record>
+
+<!-- <record id="ultrawide_lg_7" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
 </odoo>

@@ -20,4 +20,155 @@
     <field name="url">/html_editor/image_shape/blob/01.svg</field>
 </record>
 
+<!-- New configurator image records -->
+<!-- <record id="landscape_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_7" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_8" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_md_9" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_xl_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="landscape_xl_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="portrait_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="portrait_lg_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="portrait_lg_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_1_landscape_sm_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_1_landscape_sm_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_1_landscape_sm_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_2_square_md_7" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_avatars_squarish_sm_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_deco_landscape_xl_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_landscape_lg_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_portrait_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_catalog_square_md_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="set_doers_portrait_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_1" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_2" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_3" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_4" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_5" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_6" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
+<!-- <record id="ultrawide_lg_7" model="theme.ir.attachment"> -->
+<!-- TODO no url found in theme, fallbacks to website for now -->
+
 </odoo>
