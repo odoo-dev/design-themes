@@ -3,6 +3,7 @@
     'description': 'Banner hero leads into alternating image-text rows, key visuals, detailed team profiles, and a references grid for client logos, with connection line motifs woven across the sections. Communicates credibility through structure and showcased work / suited for IT and software development studios, design agencies, and technology consultancies',
     'category': 'Theme/Corporate',
     'summary': 'Development, IT development, Design, Tech, Computers, IT, Blogs',
+    'url': 'https://110518273-master-cobalt.runbot106.odoo.com/',
     'sequence': 110,
     'version': '2.0.0',
     'depends': ['website'],

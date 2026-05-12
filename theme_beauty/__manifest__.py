@@ -3,6 +3,7 @@
     'description': 'Hero opens onto a mosaic masonry gallery, boxed price lists, and a features wall closing on a strong call-to-action, with circular image crops, bold geometric shapes, and grid-pattern accents throughout. Balances product browsing with explicit pricing and CTA-focused conversion / suited for cosmetics shops, makeup brands, hair salons, and personal-care services',
     'category': 'Theme/Retail',
     'summary': 'Beauty, Health, Care, Make Up, Cosmetics, Hair Dressers, Stores',
+    'url': 'https://110518273-master-beauty.runbot106.odoo.com/',
     'sequence': 170,
     'version': '2.1.0',
     'depends': ['website'],

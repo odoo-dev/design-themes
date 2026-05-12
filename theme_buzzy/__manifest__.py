@@ -3,6 +3,7 @@
     'description': 'Illustrative banner opens onto a discovery exploration block, product showcase, key-benefit grids, and accordion-with-image FAQ, with shaped containers and organic blob motifs throughout and recurring scribble-and-marker highlights on key heading words. Content-heavy and benefit-driven, leaning illustrative rather than photo-led / suited for corporate services, technology companies, and SaaS-style product marketing sites',
     'category': 'Theme/Corporate',
     'summary': 'Corporate, Services, Technology, Shapes, Illustrations',
+    'url': 'https://110518273-master-buzzy.runbot106.odoo.com/',
     'sequence': 140,
     'version': '1.0.0',
     'depends': ['website'],

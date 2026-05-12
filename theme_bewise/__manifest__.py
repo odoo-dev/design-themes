@@ -3,6 +3,7 @@
     'description': 'Centered striped hero leads into color-blocked information, a collapsible FAQ, and shape-cropped team cards, with bold geometric shape motifs accenting the team block. Information-driven / suited for universities, schools, kids education programs, and learning platforms',
     'category': 'Theme/Education',
     'summary': 'University, Education, Schools, Young, Play, Kids',
+    'url': 'https://110518273-master-bewise.runbot106.odoo.com/',
     'sequence': 240,
     'version': '3.0.0',
     'depends': ['website'],

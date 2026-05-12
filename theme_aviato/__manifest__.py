@@ -3,6 +3,7 @@
     'description': 'Banner-led layout alternating text-and-image rows with a featured picture block, masonry gallery, team and testimonials, with connection line motifs accenting the banner. Narrative and image-forward / suited for travel agencies, tour operators, excursion booking, and destination marketing sites',
     'category': 'Theme/Creative',
     'summary': 'Travel, Excursion, Plane, Tour, Agency ',
+    'url': 'https://110518273-master-aviato.runbot106.odoo.com/',
     'sequence': 130,
     'version': '1.0.0',
     'depends': ['website'],

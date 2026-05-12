@@ -3,6 +3,7 @@
     'description': 'Vertical sidebar navigation paired with an image-titled hero, key visuals, a cafe-style price list, and a testimonial carousel framed by a quadrant block, with bold geometric shapes accenting the testimonials. Menu-and-pricing forward with little long-form copy / suited for bistros, restaurants, bars, pubs, cafes, and catering services',
     'category': 'Theme/Food',
     'summary': 'Bistro, Restaurant, Bar, Pub, Cafe, Food, Catering',
+    'url': 'https://110518273-master-bistro.runbot106.odoo.com/',
     'sequence': 220,
     'version': '2.0.0',
     'depends': ['website'],

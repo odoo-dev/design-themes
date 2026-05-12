@@ -3,6 +3,7 @@
     'description': 'Editorial side-grid layout under a hamburger nav, flowing into a dense features wall, carousel showcase, and chronological timeline before a quadrant block. Feature-heavy with editorial pacing rather than long-form passages / suited for design studios, art and culture magazines, creative agencies, and trend-driven blogs',
     'category': 'Theme/Creative',
     'summary': 'Design, Fine Art, Artwork, Creative, Creativity, Galleries, Trends, Shows, Magazines, Blogs',
+    'url': 'https://110518273-master-avantgarde.runbot106.odoo.com/',
     'sequence': 150,
     'version': '2.0.0',
     'data': [

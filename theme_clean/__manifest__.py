@@ -3,6 +3,7 @@
     'description': 'Vertically-rhythmic layout pairing a banner with a color-blocked section, alternating text-and-image rows, a numbers showcase, basic team block, and accordion FAQ with patterned and line image-shape crops (sketched oval ring, dot pattern, labyrinth) carrying the visual signature across the hero and content rows. Text-driven and information-dense with generous whitespace / suited for legal practices, business consultancies, technology companies, and professional services',
     'category': 'Theme/Services',
     'summary': 'Legal, Corporate, Business, Tech, Services',
+    'url': 'https://110518273-master-clean.runbot106.odoo.com/',
     'sequence': 120,
     'version': '2.1.0',
     'depends': ['website'],

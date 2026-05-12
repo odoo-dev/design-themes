@@ -3,6 +3,7 @@
     'description': 'Search-led header above a banner hero, curated key images, a title block, and accordion-with-image collapsible chapters, with heavily-rounded containers, circular image accents, and connection line motifs throughout. Catalog-discovery driven, balancing image presentation with browseable text / suited for bookstores, libraries, magazine archives, and music or media retailers',
     'category': 'Theme/Retail',
     'summary': 'Library, Books, Magazines, Literature, Musics, Media, Store',
+    'url': 'https://110518273-master-bookstore.runbot106.odoo.com/',
     'sequence': 250,
     'version': '2.1.0',
     'depends': ['website'],

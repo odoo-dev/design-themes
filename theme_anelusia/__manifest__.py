@@ -3,6 +3,7 @@
     'description': 'Shaped-container splash hero with a hamburger nav leads into a scrolling announcement strip and a fashion-category bento grid, then an e-commerce category showcase, a reviews wall, and a CTA. Image-forward and e-commerce-driven / suited for fashion, sportswear, footwear, and lifestyle retail brands',
     'category': 'Theme/Retail',
     'summary': 'Diversity, Fashions, Trends, Clothes, Shoes, Sports, Fitness, Stores',
+    'url': 'https://110518273-master-anelusia.runbot106.odoo.com/',
     'sequence': 180,
     'version': '2.1.0',
     'depends': ['website'],
