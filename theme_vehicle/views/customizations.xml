@@ -23,10 +23,6 @@
 </template>
 
 <template id="s_striped_top" inherit_id="website.s_striped_top">
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_picture_default_image</attribute>
-    </xpath>
 </template>
 
 <!-- ======== FRAMED INTRO ======== -->
@@ -38,9 +34,6 @@
     <!-- Image -->
     <xpath expr="//div[hasclass('col-lg-5')]" position="attributes">
         <attribute name="class" add="o_cc4" remove="o_cc2" separator=" "/>
-    </xpath>
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_three_columns_default_image_1</attribute>
     </xpath>
 </template>
 
@@ -109,9 +102,6 @@
 <!-- ======== IMAGE HEXAGONAL ======== -->
 <template id="s_image_hexagonal" inherit_id="website.s_image_hexagonal">
     <!-- Title -->
-    <xpath expr="(//img)[2]" position="attributes">
-        <attribute name="src">/web/image/website.s_cover_default_image</attribute>
-    </xpath>
 </template>
 
 <!-- ======== FEATURES WALL ======== -->
@@ -144,10 +134,6 @@
     <!-- Section -->
     <xpath expr="//section" position="attributes">
         <attribute name="class" remove="o_cc2" add="o_cc3" separator=" "/>
-    </xpath>
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_carousel_default_image_2</attribute>
     </xpath>
 </template>
 
@@ -243,7 +229,6 @@
     </xpath>
     <!-- Image + Shape -->
     <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_picture_default_image</attribute>
         <attribute name="data-file-name">01.svg</attribute>
     </xpath>
     <xpath expr="//figcaption" position="replace" mode="inner">
@@ -736,18 +721,10 @@
     <xpath expr="//section" position="attributes">
         <attribute name="class" remove="o_cc1" add="o_cc5" separator=" "/>
     </xpath>
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.library_image_05</attribute>
-    </xpath>
 </template>
 
 <!-- ======== CARD OFFSET ======== -->
 <template id="s_card_offset" inherit_id="website.s_card_offset">
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.library_image_05</attribute>
-    </xpath>
     <!-- Title -->
     <xpath expr="//h2" position="replace" mode="inner">
         Reliable Vehicle Services &amp; Repairs

@@ -110,10 +110,6 @@
 
 <!-- ======== STRIPED TOP ======== -->
 <template id="s_striped_top" inherit_id="website.s_striped_top">
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_picture_default_image</attribute>
-    </xpath>
 </template>
 
 <!-- ======== SIDEGRID ======== -->
@@ -121,15 +117,12 @@
     <!-- Images -->
     <xpath expr="//img" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_text_image_default_image</attribute>
     </xpath>
     <xpath expr="(//img)[2]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_banner_default_image_2</attribute>
     </xpath>
     <xpath expr="(//img)[3]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
-        <attribute name="src">/web/image/website.s_banner_default_image</attribute>
     </xpath>
     <xpath expr="(//img)[4]" position="attributes">
         <attribute name="class" remove="rounded" separator=" "/>
@@ -211,10 +204,6 @@
     <!-- Section -->
     <xpath expr="section" position="attributes">
         <attribute name="class" add="o_cc o_cc5" separator=" "/>
-    </xpath>
-    <!-- Images -->
-    <xpath expr="(//img)[2]" position="attributes">
-        <attribute name="src">/web/image/website.s_text_cover_default_image</attribute>
     </xpath>
 </template>
 
@@ -744,10 +733,6 @@
 
 <!-- ======== IMAGE FRAME ======== -->
 <template id="s_image_frame" inherit_id="website.s_image_frame">
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_quotes_carousel_demo_image_1</attribute>
-    </xpath>
 </template>
 
 <!-- ===== WAVY GRID ======== -->
@@ -810,10 +795,6 @@
     <!-- Grid items -->
     <xpath expr="(//div[hasclass('o_grid_item')])[2]" position="attributes">
         <attribute name="style" add="--grid-item-padding-y: 48px;" remove="--grid-item-padding-y: 40px;" separator=";"/>
-    </xpath>
-    <!-- Image -->
-    <xpath expr="//img" position="attributes">
-        <attribute name="src">/web/image/website.s_carousel_default_image_3</attribute>
     </xpath>
     <!-- Title -->
     <xpath expr="//h2" position="replace" mode="inner">
