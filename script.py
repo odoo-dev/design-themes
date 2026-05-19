@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # Part of Odoo. See LICENSE file for full copyright and licensing details.
 
-import base64
 import json
 import re
 import subprocess
@@ -204,21 +203,6 @@ def get_font_mime_type(url):
     suffix = Path(urlparse(url).path).suffix.lower()
     return FONT_MIME_TYPES.get(suffix)
 
-
-def font_data_uri(url, base_url):
-    abs_url = urljoin(base_url, url)
-    content, content_type = fetch(abs_url)
-    if not content:
-        return None
-    mime_type = content_type.split(";", 1)[0].strip() if content_type else ""
-    if not mime_type:
-        mime_type = get_font_mime_type(abs_url)
-    if not mime_type:
-        return None
-    encoded = base64.b64encode(content).decode()
-    return f"data:{mime_type};base64,{encoded}"
-
-
 def resolve_css_imports(css, base_url):
     def replace(match):
         url = match.group(1) or match.group(2)
@@ -244,9 +228,7 @@ def resolve_css_urls(css, base_url):
         if get_font_mime_type(raw_url):
             if is_external_url(raw_url, base_url):
                 return f'url("{urljoin(base_url, raw_url)}")'
-            uri = font_data_uri(raw_url, base_url)
-            if uri:
-                return f'url("{uri}")'
+            return f'url("{root_relative_url(raw_url, base_url)}")'
         return f'url("{root_relative_url(raw_url, base_url)}")'
 
     return re.sub(r'url\(([^)]+)\)', replace, css)
@@ -370,9 +352,7 @@ def inline_font_preloads(soup, base_url):
         if is_external_url(href, base_url):
             link["href"] = urljoin(base_url, href)
             continue
-        uri = font_data_uri(href, base_url)
-        if uri:
-            link["href"] = uri
+        link["href"] = root_relative_url(href, base_url)
 
 
 def remove_javascript(soup):
