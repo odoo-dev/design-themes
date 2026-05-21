@@ -252,7 +252,17 @@ def replace_palette_colors_in_css(css_text):
     return css_text
 
 
+def replace_palette_colors_in_urls(text):
+    for css_var, colors in PALETTE_COLORS.items():
+        color_token = css_var.removeprefix("--")
+        for color in colors:
+            encoded_color = "%23" + color.lstrip("#")
+            text = re.sub(re.escape(encoded_color), color_token, text, flags=re.I)
+    return text
+
+
 def replace_palette_colors_in_style(style_text):
+    style_text = replace_palette_colors_in_urls(style_text)
     for css_var, colors in PALETTE_COLORS.items():
         for color in colors:
             style_text = re.sub(re.escape(color), f"var({css_var})", style_text, flags=re.I)
@@ -294,6 +304,7 @@ def process_css(css_text, base_url):
     css_text = resolve_css_imports(css_text, base_url)
     css_text = resolve_css_urls(css_text, base_url)
     css_text = convert_vh_to_vw(css_text)
+    css_text = replace_palette_colors_in_urls(css_text)
     return replace_palette_colors_in_css(css_text)
 
 
