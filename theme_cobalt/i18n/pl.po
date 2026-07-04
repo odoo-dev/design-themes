@@ -7,13 +7,14 @@
 # Marta Wacławek, 2025
 #
 # Weblate <noreply-mt-weblate@weblate.org>, 2025.
+# "Marta (wacm)" <wacm@odoo.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~18.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-06-19 17:39+0000\n"
-"PO-Revision-Date: 2025-11-22 21:40+0000\n"
-"Last-Translator: Weblate <noreply-mt-weblate@weblate.org>\n"
+"PO-Revision-Date: 2026-07-04 21:40+0000\n"
+"Last-Translator: \"Marta (wacm)\" <wacm@odoo.com>\n"
 "Language-Team: Polish <https://translate.odoo.com/projects/odoo-s18-2/"
 "theme_cobalt/pl/>\n"
 "Language: pl\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && "
 "(n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && "
 "n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.6.1\n"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_banner
@@ -33,6 +34,10 @@ msgid ""
 "brand apart.\n"
 "            <br/>"
 msgstr ""
+"<br/>\n"
+"            Tworzymy przełomowe doświadczenia cyfrowe, które wyróżnią Twoją "
+"markę.\n"
+"           <br/>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_image_text
@@ -41,36 +46,41 @@ msgid ""
 "        We create a consistent customer experience through a detailed "
 "digital strategy built on precise customer research."
 msgstr ""
+"<br/>\n"
+"        Tworzymy spójne doświadczenia klientów dzięki szczegółowej strategii "
+"cyfrowej opartej na precyzyjnych badaniach klientów."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_empowerment
 msgid "<br/>Transforming ideas into impactful digital experiences.<br/><br/>"
 msgstr ""
+"<br/>Przekształcamy pomysły w wywierające wrażenie doświadczenia "
+"cyfrowe.<br/><br/>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_picture
 msgid "<em>Our office in Dhaka</em>"
-msgstr ""
+msgstr "<em>Nasze biuro w Dhace</em>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "<font class=\"text-o-color-2\">01</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-2\">01</font>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "<font class=\"text-o-color-2\">02</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-2\">02</font>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "<font class=\"text-o-color-2\">03</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-2\">03</font>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "<font class=\"text-o-color-2\">04</font>"
-msgstr ""
+msgstr "<font class=\"text-o-color-2\">04</font>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_empowerment
@@ -78,22 +88,26 @@ msgid ""
 "<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/"
 ">  Innovative solutions"
 msgstr ""
+"<i class=\"fa fa-fw fa-info-circle o_not-animable\" role=\"img\"/>  "
+"Innowacyjne rozwiązania"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_color_blocks_2
 msgid ""
 "Are you a startup or a seasoned company looking for a new brand identity?"
 msgstr ""
+"Czy jesteś start-upem, czy doświadczoną firmą poszukującą nowej tożsamości "
+"marki?"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_color_blocks_2
 msgid "Are you an established brand looking for ongoing creative services?"
-msgstr ""
+msgstr "Czy jesteś uznaną marką poszukującą stałych usług kreatywnych?"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_empowerment
 msgid "Building the future<br/>with NovaDev Solutions"
-msgstr ""
+msgstr "Budowanie przyszłości<br/>z NovaDev Solutions"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -117,7 +131,7 @@ msgstr ""
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_benefits
 msgid "Continuous Project Support"
-msgstr ""
+msgstr "Stałe wsparcie projektu"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -136,7 +150,7 @@ msgstr "Usługi cyfrowego marketingu"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_text_image
 msgid "Digital Transformation"
-msgstr ""
+msgstr "Transformacja cyfrowa"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_striped_center_top
@@ -146,7 +160,7 @@ msgstr "Odkryj nasze usługi"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_cta_box
 msgid "Discover our data-driven strategy"
-msgstr ""
+msgstr "Poznaj naszą strategię opartą na danych"
 
 #. module: theme_cobalt
 #: model:ir.model.fields,field_description:theme_cobalt.field_theme_utils__display_name
@@ -156,12 +170,12 @@ msgstr "Nazwa wyświetlana"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "Driving Success <br/>Through Innovation"
-msgstr ""
+msgstr "Droga do sukcesu<br/> prowadzi przez innowacje"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
 msgid "Efficiency"
-msgstr ""
+msgstr "Efektywność"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
@@ -180,7 +194,7 @@ msgstr ""
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_striped_top
 msgid "Experience the Future of Innovation"
-msgstr ""
+msgstr "Poznaj przyszłość innowacji"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -194,7 +208,7 @@ msgstr ""
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_freegrid
 msgid "Explore Services"
-msgstr ""
+msgstr "Poznaj nasze usługi"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -208,6 +222,9 @@ msgid ""
 "design services. We create solutions that drive innovation and deliver "
 "exceptional results for your business."
 msgstr ""
+"Wykorzystaj potencjał technologii dzięki naszym najnowocześniejszym usługom "
+"w zakresie rozwoju i projektowania IT. Tworzymy rozwiązania, które napędzają "
+"innowacje i zapewniają wyjątkowe wyniki dla Twojej firmy."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -227,7 +244,7 @@ msgstr "Usługi wsparcia IT"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_card_offset
 msgid "Innovate with confidence."
-msgstr ""
+msgstr "Wprowadzaj innowacje z pewnością siebie."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_images
@@ -237,17 +254,17 @@ msgstr "Innowacja"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_striped_center_top
 msgid "Innovative IT Solutions for Your Growth"
-msgstr ""
+msgstr "Innowacyjne rozwiązania IT wspierające Twój rozwój"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_benefits
 msgid "Innovative Solutions"
-msgstr ""
+msgstr "Innowacyjne rozwiązania"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_three_columns
 msgid "Latest projects"
-msgstr ""
+msgstr "Najnowsze projekty"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_text_image
@@ -255,6 +272,8 @@ msgid ""
 "Leader in digital business, we’re helping companies of all sizes to thrive "
 "in an ever-changing landscape."
 msgstr ""
+"Jako lider w branży cyfrowej pomagamy firmom każdej wielkości rozwijać się w "
+"nieustannie zmieniającym się otoczeniu."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_carousel_intro
@@ -272,6 +291,9 @@ msgid ""
 "Leverage cutting-edge technologies and innovative approaches that drive your "
 "development projects forward and deliver exceptional results."
 msgstr ""
+"Wykorzystaj najnowocześniejsze technologie i innowacyjne podejścia, które "
+"przyspieszą realizację Twoich projektów rozwojowych i zapewnią wyjątkowe "
+"wyniki."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_card_offset
@@ -280,6 +302,9 @@ msgid ""
 "We deliver innovative solutions that meet the evolving needs of your "
 "business."
 msgstr ""
+"Wykorzystaj potencjał technologii dzięki naszym zaawansowanym usługom w "
+"zakresie rozwoju IT. Dostarczamy innowacyjne rozwiązania, które odpowiadają "
+"zmieniającym się potrzebom Twojej firmy."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_image_text
@@ -290,7 +315,7 @@ msgstr "Marketing"
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_cta_box
 msgid "No assumptions, every decision is based on data<br/><br/>"
-msgstr ""
+msgstr "Żadnych domysłów – każda decyzja opiera się na danych<br/><br/>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -309,16 +334,18 @@ msgid ""
 "Our team offers ongoing support throughout every phase of development, "
 "ensuring your project stays on track and on time."
 msgstr ""
+"Nasz zespół zapewnia stałe wsparcie na każdym etapie rozwoju, gwarantując, "
+"że projekt przebiega zgodnie z planem i terminami."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_freegrid
 msgid "Pioneering IT Development and Design Solutions"
-msgstr ""
+msgstr "Pionierskie rozwiązania w zakresie rozwoju i projektowania IT"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_card_offset
 msgid "Pioneering IT Solutions &amp; Development"
-msgstr ""
+msgstr "Pionierskie rozwiązania IT &amp; programowania"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_title
@@ -363,11 +390,12 @@ msgstr ""
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_empowerment
 msgid "See our projects   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
 msgstr ""
+"Zobacz nasze projekty   <i class=\"fa fa-long-arrow-right\" role=\"img\"/>"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_empowerment
 msgid "Start a project"
-msgstr ""
+msgstr "Rozpocznij projekt"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
@@ -407,17 +435,17 @@ msgstr ""
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_image_text
 msgid "Strategy synchronising multiple channels"
-msgstr ""
+msgstr "Strategia synchronizacji wielu kanałów"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_benefits
 msgid "Tailored Development Plans"
-msgstr ""
+msgstr "Indywidualne plany rozwoju"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_striped_center_top
 msgid "Technology that drives success"
-msgstr ""
+msgstr "Technologia, która napędza sukces"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_banner
@@ -425,6 +453,8 @@ msgid ""
 "The <br/><font class=\"text-o-color-1\">ultimate</font> <br/>marketing "
 "platform"
 msgstr ""
+"<br/><font class=\"text-o-color-1\">Najlepsza </font> <br/>platforma "
+"marketingowa"
 
 #. module: theme_cobalt
 #: model:ir.model,name:theme_cobalt.model_theme_utils
@@ -437,11 +467,14 @@ msgid ""
 "Transform your business with cutting-edge IT development and design "
 "solutions that drive efficiency and growth."
 msgstr ""
+"Zmień oblicze swojej firmy dzięki najnowocześniejszym rozwiązaniom w "
+"zakresie rozwoju IT i projektowania, które zwiększają wydajność i napędzają "
+"rozwój."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_text_image
 msgid "Unlock the possibilities of what we can offer you"
-msgstr ""
+msgstr "Odkryj możliwości, jakie możemy Ci zaoferować"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_key_benefits
@@ -449,6 +482,8 @@ msgid ""
 "We create customized development strategies that meet your project’s unique "
 "requirements, ensuring successful outcomes."
 msgstr ""
+"Tworzymy dostosowane do indywidualnych potrzeb strategie rozwoju, które "
+"spełniają unikalne wymagania Twojego projektu, zapewniając pomyślne wyniki."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_text_image
@@ -457,11 +492,14 @@ msgid ""
 "mobile applications and websites. Check our portfolio from clients around "
 "the world."
 msgstr ""
+"Zgromadziliśmy bogate doświadczenie w tworzeniu natywnych i "
+"wieloplatformowych aplikacji mobilnych oraz stron internetowych. Zapoznaj "
+"się z naszym portfolio projektów zrealizowanych dla klientów z całego świata."
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_text_image
 msgid "Web &amp; App Development"
-msgstr ""
+msgstr "Tworzenie aplikacji i stron internetowych"
 
 #. module: theme_cobalt
 #: model_terms:theme.ir.ui.view,arch:theme_cobalt.s_pricelist_boxed
